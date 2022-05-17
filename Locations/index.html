@@ -8,24 +8,148 @@
     <link rel="stylesheet" href="./src/css/style.min.css" />
   </head>
   <body>
-    <header></header>
+    <!--header-->
+
+    <header class="header">
+      <div class="header__main">
+        <figure class="header__logo"><img /></figure>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list-company">OUR COMPANY</li>
+            <li class="header__nav__list-location">LOCATIONS</li>
+            <li class="header__nav__list-contact">CONTACT</li>
+          </ul>
+        </nav>
+      </div>
+      <article class="article_header">
+        <h1 class="title_article_header">
+          Award-winning custom designs and digital branding solutions
+        </h1>
+        <p class="text_article_header">
+          With over 10 years in the industry, we are experienced in creating
+          fully responsive websites, app design, and engaging brand experiences.
+          Find out more about our services.
+        </p>
+        <button class="button_article_header dark" type="button">
+          LEARN MORE
+        </button>
+      </article>
+    </header>
+
+    <!--main-->
+
     <main>
       <section class="locations">
         <article class="locations_belgium">
-          <h2>Belgium</h2>
-          <ul class="locations_contacts">
-            <li>
-              <h3>Designo Central Office</h3>
-              <p>386 Wellington Street</p>
-              <p>1000 Brussels - Belgium</p>
-            </li>
-            <li>
-              <h3>Contact</h3>
-            </li>
-          </ul>
+          <div class="container_locations_contacts">
+            <h2>Belgium</h2>
+            <ul class="locations_contacts">
+              <li>
+                <h3>Designo Central Office</h3>
+                <p>386 Wellington Street</p>
+                <p>1000 Brussels - Belgium</p>
+              </li>
+              <li>
+                <h3>Contact</h3>
+                <p>P : +1 2538638967</p>
+                <p>M : contact@designo.co</p>
+              </li>
+            </ul>
+          </div>
+          <div class="container_img">
+            <img src="../src/img/Locations/map_belgium.svg" alt="map belgium" />
+          </div>
+        </article>
+
+        <article class="locations_australia">
+          <div class="container_img">
+            <img
+              src="../src/img/Locations/map_australia.svg"
+              alt="mal australia"
+            />
+          </div>
+          <div class="container_locations_contacts">
+            <h2>Australia</h2>
+            <ul class="locations_contacts">
+              <li>
+                <h3>Designo AU Office</h3>
+                <p>17 Balonne Street</p>
+                <p>New South Wales 243</p>
+              </li>
+              <li>
+                <h3>Contact</h3>
+                <p>P : (02) 6720 9092</p>
+                <p>M : contact@designo.au</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="locations_united-kingdom">
+          <div class="container_locations_contacts">
+            <h2>United Kingdom</h2>
+            <ul class="locations_contacts">
+              <li>
+                <h3>Designo UK Office</h3>
+                <p>13 Colorado Way</p>
+                <p>Rhydyfro SAB 9GA</p>
+              </li>
+              <li>
+                <h3>Contact</h3>
+                <p>P : 078 3115 1400</p>
+                <p>M : contact@designo.uk</p>
+              </li>
+            </ul>
+          </div>
+          <div class="container_img">
+            <img
+              src="../src/img/Locations/map_unitedkingdom.svg"
+              alt="mal UK"
+            />
+          </div>
         </article>
       </section>
     </main>
-    <footer></footer>
+
+    <!--footer-->
+
+    <footer class="footer">
+      <article>
+        <h1></h1>
+        <p></p>
+        <button></button>
+      </article>
+      <section>
+        <div class="header__main">
+          <figure class="header__logo"><img /></figure>
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__list-company">OUR COMPANY</li>
+              <li class="header__nav__list-location">LOCATIONS</li>
+              <li class="header__nav__list-contact">CONTACT</li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="__nav__social">
+          <ul class="__social__list">
+            <li class="__social__list-items">
+              <a><img /></a>
+            </li>
+            <li class="__social__list-items">
+              <a><img /></a>
+            </li>
+            <li class="__social__list-items">
+              <a><img /></a>
+            </li>
+            <li class="__social__list-items">
+              <a><img /></a>
+            </li>
+            <li class="__social__list-items">
+              <a><img /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
   </body>
 </html>
