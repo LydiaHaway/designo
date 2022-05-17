@@ -1,1 +1,72 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body header {
+  margin-top: 54px;
+  margin-bottom: 70px;
+}
+body header .header__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .header__logo img {
+  height: 27px;
+}
+body header .header__nav .header__nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+body header .header__nav .header__nav__list a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+body main .locations .locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+body main .locations .locations.belgium {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+body main .locations .locations.united-kingdom {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+body main .locations .locations .container_locations_contacts {
+  background-color: #fdf3f0;
+  width: 730px;
+  height: 326px;
+  border-radius: 15px;
+}
+body main .locations .locations .container_locations_contacts ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}/*# sourceMappingURL=style.css.map */
