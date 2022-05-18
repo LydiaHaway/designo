@@ -14,15 +14,9 @@ body header {
   margin-right: 5px;
 }
 body header .nav_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1111px;
   margin-top: 65px;
   margin-bottom: 70px;
@@ -33,8 +27,6 @@ body header .container-logo_header img {
   height: 24px;
 }
 body header .list_nav_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 42px;
   list-style: none;
@@ -47,12 +39,8 @@ body header .list_nav_header a {
   line-height: 14px;
 }
 body main .locations .locations {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
@@ -62,16 +50,10 @@ body main .locations .locations {
   }
 }
 body main .locations .locations.belgium {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 body main .locations .locations.united-kingdom {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 @media screen and (max-width: 900px) {
   body main .locations .locations .container_img img {
@@ -101,8 +83,6 @@ body main .locations .locations .container_locations_contacts h2 {
 }
 body main .locations .locations .container_locations_contacts ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 60px;
   margin-left: 95px;
