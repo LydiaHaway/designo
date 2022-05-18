@@ -74,10 +74,17 @@ body main .locations .locations.united-kingdom {
           flex-direction: row-reverse;
 }
 @media screen and (max-width: 900px) {
+  body main .locations .locations .container_img {
+    text-align: center;
+  }
+}
+body main .locations .locations .container_img img {
+  border-radius: 15px;
+}
+@media screen and (max-width: 900px) {
   body main .locations .locations .container_img img {
     width: 90%;
     height: 350px;
-    margin-left: 35px;
   }
 }
 body main .locations .locations .container_locations_contacts {
@@ -98,6 +105,11 @@ body main .locations .locations .container_locations_contacts h2 {
   margin-bottom: 24px;
   margin-left: 95px;
   margin-top: 100px;
+}
+@media screen and (max-width: 900px) {
+  body main .locations .locations .container_locations_contacts h2 {
+    margin-top: 10px;
+  }
 }
 body main .locations .locations .container_locations_contacts ul {
   list-style: none;
