@@ -126,6 +126,11 @@ body main .container_form {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  position: relative;
+}
+body main .container_form .shape--form {
+  position: absolute;
+  left: 0px;
 }
 body main .container_form .container_form--text {
   width: 540px;

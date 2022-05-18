@@ -19,6 +19,12 @@ body {
       justify-content: center;
       align-items: center;
       color: white;
+      position: relative;
+
+      .shape--form {
+        position: absolute;
+        left: 0px;
+      }
 
       .container_form--text {
         width: 540px;
