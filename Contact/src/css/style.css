@@ -136,6 +136,7 @@ body main .container_form {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    background: url(../../../src/img/Contact/bg-tablet.png) center/cover no-repeat;
   }
 }
 body main .container_form .shape--form {
@@ -145,19 +146,6 @@ body main .container_form .shape--form {
 @media screen and (max-width: 970px) {
   body main .container_form .shape--form {
     display: none;
-  }
-}
-body main .container_form .shape--form--tablet {
-  display: none;
-  position: absolute;
-}
-body main .container_form .shape--form--tablet img {
-  height: 640px;
-}
-@media screen and (max-width: 970px) {
-  body main .container_form .shape--form--tablet {
-    display: block;
-    top: 0px;
   }
 }
 body main .container_form .container_form--text {
@@ -194,6 +182,7 @@ body main .container_form form {
   width: 380px;
   padding: 55px 0px;
   max-width: 573px;
+  z-index: 2;
 }
 @media screen and (max-width: 970px) {
   body main .container_form form {
@@ -203,7 +192,7 @@ body main .container_form form {
 body main .container_form form input {
   border: none;
   border-bottom: 2px solid white;
-  background-color: #e7816b;
+  background-color: rgba(231, 130, 107, 0);
   width: 380px;
   height: 62px;
 }
@@ -233,7 +222,7 @@ body main .container_form form textarea {
   height: 126px;
   border: none;
   border-bottom: 2px solid white;
-  background-color: #e7816b;
+  background-color: rgba(231, 130, 107, 0);
 }
 @media screen and (max-width: 970px) {
   body main .container_form form textarea {

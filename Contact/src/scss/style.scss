@@ -26,6 +26,8 @@ body {
         display: block;
         max-width: 90%;
         height: fit-content;
+        background: url(../../../src/img/Contact/bg-tablet.png) center/cover
+          no-repeat;
       }
 
       .shape--form {
@@ -34,20 +36,6 @@ body {
 
         @media screen and (max-width: 970px) {
           display: none;
-        }
-      }
-
-      .shape--form--tablet {
-        display: none;
-        position: absolute;
-
-        img {
-          height: 640px;
-        }
-
-        @media screen and (max-width: 970px) {
-          display: block;
-          top: 0px;
         }
       }
 
@@ -86,6 +74,7 @@ body {
         width: 380px;
         padding: 55px 0px;
         max-width: 573px;
+        z-index: 2;
         @media screen and (max-width: 970px) {
           margin-left: 97px;
         }
@@ -93,7 +82,7 @@ body {
         input {
           border: none;
           border-bottom: 2px solid white;
-          background-color: #e7816b;
+          background-color: #e7826b00;
           width: 380px;
           height: 62px;
 
@@ -112,7 +101,7 @@ body {
           height: 126px;
           border: none;
           border-bottom: 2px solid white;
-          background-color: #e7816b;
+          background-color: #e7826b00;
 
           @media screen and (max-width: 970px) {
             width: 573px;
