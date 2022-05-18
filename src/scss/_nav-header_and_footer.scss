@@ -50,6 +50,8 @@ body {
                 align-items: center;
                 max-width: 1111px;
                 margin: 0px auto;
+                padding-bottom: 40px;
+
 
                 .container-logo_footer {
                     height: 27px;
@@ -81,29 +83,35 @@ body {
                 max-width: 1111px;
                 display: flex;
                 margin: 0px auto;
+                justify-content: space-between;
+                padding-top: 31px;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
 
                 .contact_footer {
                     display: flex;
-                    justify-content: space-between;
                     gap: 30px;
 
                     .item_contact_footer {
-                        color: white;
                         width: 350px;
                         height: 78px;
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                        opacity: 0.5;
 
-                        .title_contact_footer {}
-
-                        .adress_contact {}
-
-                        .data_contact {}
+                        .adress_contact {
+                            font-weight: 400;
+                        }
                     }
                 }
 
                 .social_footer {
+                    display: flex;
+
                     .list_social {
                         display: flex;
                         gap: 16px;
+                        align-self: flex-end;
 
                         .item_social {
                             a {
