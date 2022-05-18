@@ -9,23 +9,24 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-body header {
-  margin-top: 54px;
-  margin-bottom: 70px;
-}
 body header .nav_header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 150px;
+  max-width: 1111px;
+  margin-top: 65px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body header .container-logo_header img {
-  height: 27px;
+  height: 24px;
 }
 body header .list_nav_header {
   display: -webkit-box;
@@ -51,6 +52,11 @@ body main .locations .locations {
   gap: 20px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 900px) {
+  body main .locations .locations {
+    display: block;
+  }
+}
 body main .locations .locations.belgium {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -63,11 +69,24 @@ body main .locations .locations.united-kingdom {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+@media screen and (max-width: 900px) {
+  body main .locations .locations .container_img img {
+    width: 90%;
+    height: 350px;
+  }
+}
 body main .locations .locations .container_locations_contacts {
   background-color: #fdf3f0;
   width: 730px;
   height: 326px;
   border-radius: 15px;
+}
+@media screen and (max-width: 900px) {
+  body main .locations .locations .container_locations_contacts {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 body main .locations .locations .container_locations_contacts h2 {
   color: #e7816b;
@@ -83,7 +102,7 @@ body main .locations .locations .container_locations_contacts ul {
   gap: 60px;
   margin-left: 95px;
 }
-body main .locations .locations .container_locations_contacts ul h3 {
+body main .locations .locations .container_locations_contacts ul li h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
