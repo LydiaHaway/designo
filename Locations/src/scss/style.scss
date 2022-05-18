@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
 
   header {
+    margin-left: 5px;
+    margin-right: 5px;
     .nav_header {
       display: flex;
       justify-content: space-between;
@@ -64,6 +66,7 @@ body {
             @media screen and (max-width: 900px) {
               width: 90%;
               height: 350px;
+              margin-left: 35px;
             }
           }
         }
