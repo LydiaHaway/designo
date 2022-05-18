@@ -23,7 +23,7 @@ body {
       .container_form--text {
         width: 540px;
 
-        h2 {
+        h1 {
           font-size: 42px;
           margin-bottom: 32px;
           font-weight: 500;
@@ -46,10 +46,26 @@ body {
           border: none;
           border-bottom: 2px solid white;
           background-color: #e7816b;
+          width: 380px;
+          height: 40px;
+
+          &::placeholder {
+            color: white;
+          }
         }
 
         textarea {
           resize: none;
+          width: 380px;
+          height: 70px;
+          border: none;
+          border-bottom: 2px solid white;
+          background-color: #e7816b;
+
+          &::placeholder {
+            color: white;
+            padding-top: 15px;
+          }
         }
       }
     }
