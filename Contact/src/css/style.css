@@ -111,4 +111,36 @@ body footer .section_footer .container-contact_footer .social_footer .list_socia
 
 body main .container_form {
   background: #e7816b;
+  height: 480px;
+  width: 1111px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+body main .container_form .container_form--text {
+  width: 540px;
+}
+body main .container_form .container_form--text h2 {
+  font-size: 42px;
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+body main .container_form .container_form--text p {
+  width: 445px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
