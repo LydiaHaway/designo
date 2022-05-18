@@ -62,11 +62,46 @@ body {
         }
 
         .container_img {
+          @media screen and (max-width: 900px) {
+            display: none;
+          }
+        }
+
+        .container_img--tablet {
+          display: none;
+
+          @media screen and (max-width: 900px) {
+            display: block;
+            text-align: center;
+          }
+
+          @media screen and (max-width: 570px) {
+            display: none;
+          }
+
           img {
             @media screen and (max-width: 900px) {
               width: 90%;
               height: 350px;
-              margin-left: 35px;
+              border-radius: 15px;
+            }
+          }
+        }
+
+        .container_img--mobile {
+          display: none;
+
+          @media screen and (max-width: 570px) {
+            display: block;
+            text-align: center;
+          }
+
+          img {
+            border-radius: 15px;
+
+            @media screen and (max-width: 570px) {
+              width: 100%;
+              border-radius: 0%;
             }
           }
         }
@@ -80,12 +115,35 @@ body {
             width: 90%;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 80px;
+          }
+          @media screen and (max-width: 570px) {
+            text-align: center;
+            padding-bottom: 80px;
+            width: 100%;
+            border-radius: 0%;
+            margin-bottom: 40px;
           }
           h2 {
             color: #e7816b;
             margin-bottom: 24px;
             margin-left: 95px;
             margin-top: 100px;
+            font-size: 40px;
+            line-height: 48px;
+            font-weight: 500;
+
+            @media screen and (max-width: 900px) {
+              margin-top: 10px;
+              padding-top: 88px;
+              margin-left: 75px;
+            }
+
+            @media screen and (max-width: 570px) {
+              margin-left: auto;
+              margin-right: auto;
+              padding-top: 80px;
+            }
           }
 
           ul {
@@ -94,11 +152,25 @@ body {
             gap: 60px;
             margin-left: 95px;
 
+            @media screen and (max-width: 900px) {
+              margin-left: 75px;
+            }
+
+            @media screen and (max-width: 570px) {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
             li {
               h3 {
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 26px;
+              }
+
+              @media screen and (max-width: 570px) {
+                margin-top: 24px;
               }
             }
           }
