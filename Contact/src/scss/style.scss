@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import "../../../src/css/reset.css";
+@import "../../../src/scss/nav-header_and_footer";
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  main {
+    .container_form {
+      background: #e7816b;
+    }
+  }
+}
