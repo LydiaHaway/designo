@@ -216,6 +216,9 @@ body main .container_form form input::-ms-input-placeholder {
 body main .container_form form input::placeholder {
   color: white;
 }
+body main .container_form form input:focus {
+  outline: none;
+}
 body main .container_form form textarea {
   resize: none;
   width: 380px;
@@ -223,6 +226,7 @@ body main .container_form form textarea {
   border: none;
   border-bottom: 2px solid white;
   background-color: rgba(231, 130, 107, 0);
+  margin-top: 15px;
 }
 @media screen and (max-width: 970px) {
   body main .container_form form textarea {
@@ -231,23 +235,21 @@ body main .container_form form textarea {
 }
 body main .container_form form textarea::-webkit-input-placeholder {
   color: white;
-  padding-top: 15px;
 }
 body main .container_form form textarea::-moz-placeholder {
   color: white;
-  padding-top: 15px;
 }
 body main .container_form form textarea:-ms-input-placeholder {
   color: white;
-  padding-top: 15px;
 }
 body main .container_form form textarea::-ms-input-placeholder {
   color: white;
-  padding-top: 15px;
 }
 body main .container_form form textarea::placeholder {
   color: white;
-  padding-top: 15px;
+}
+body main .container_form form textarea:focus {
+  outline: none;
 }
 body main .container_see--location .list-location {
   display: -webkit-box;

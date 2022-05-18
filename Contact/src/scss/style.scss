@@ -93,6 +93,10 @@ body {
           &::placeholder {
             color: white;
           }
+
+          &:focus {
+            outline: none;
+          }
         }
 
         textarea {
@@ -102,6 +106,7 @@ body {
           border: none;
           border-bottom: 2px solid white;
           background-color: #e7826b00;
+          margin-top: 15px;
 
           @media screen and (max-width: 970px) {
             width: 90%;
@@ -109,7 +114,10 @@ body {
 
           &::placeholder {
             color: white;
-            padding-top: 15px;
+          }
+
+          &:focus {
+            outline: none;
           }
         }
       }
