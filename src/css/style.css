@@ -1,20 +1,8 @@
 @import "reset.css";
 body header .nav_header {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
-=======
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
->>>>>>> lydia
   max-width: 1111px;
   margin: 64px auto;
 }
@@ -26,11 +14,6 @@ body header .nav_header .container-logo_header .logo_header {
   width: 100%;
 }
 body header .nav_header .list_nav_header {
-<<<<<<< HEAD
-=======
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> lydia
   display: flex;
   gap: 42px;
   list-style: none;
@@ -47,6 +30,8 @@ body header .nav_header .list_nav_header a {
 body footer .section_footer {
   background: black;
   width: 100%;
+  padding-top: 144px;
+  padding-bottom: 72px;
 }
 body footer .section_footer .nav_footer {
   display: flex;
@@ -82,7 +67,6 @@ body footer .section_footer .container-contact_footer {
   margin: 0px auto;
 }
 body footer .section_footer .container-contact_footer .contact_footer {
-  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   gap: 30px;

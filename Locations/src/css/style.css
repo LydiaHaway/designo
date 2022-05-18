@@ -11,16 +11,10 @@ body header .nav_header .container-logo_header {
   height: 27px;
   width: 202px;
 }
-<<<<<<< HEAD
-body header .list_nav_header {
-=======
 body header .nav_header .container-logo_header .logo_header {
   width: 100%;
 }
 body header .nav_header .list_nav_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
->>>>>>> lydia
   display: flex;
   gap: 42px;
   list-style: none;
@@ -36,6 +30,56 @@ body header .nav_header .list_nav_header a {
 }
 body footer .section_footer {
   background: black;
+  width: 100%;
+  padding-top: 144px;
+  padding-bottom: 72px;
+}
+body footer .section_footer .nav_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1111px;
+  margin: 0px auto;
+}
+body footer .section_footer .nav_footer .container-logo_footer {
+  height: 27px;
+  width: 202px;
+}
+body footer .section_footer .nav_footer .container-logo_footer .logo_footer {
+  width: 100%;
+}
+body footer .section_footer .nav_footer .list_nav_footer {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+body footer .section_footer .nav_footer .list_nav_footer a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: white;
+}
+body footer .section_footer .container-contact_footer {
+  max-width: 1111px;
+  display: flex;
+  margin: 0px auto;
+}
+body footer .section_footer .container-contact_footer .contact_footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer {
+  color: white;
+  width: 350px;
+  height: 78px;
+}
+body footer .section_footer .container-contact_footer .social_footer .list_social {
+  display: flex;
+  gap: 16px;
 }
 * {
   font-family: "Jost", sans-serif;
@@ -127,10 +171,7 @@ body main .locations .locations .container_locations_contacts {
     width: 100%;
     border-radius: 0%;
     margin-bottom: 40px;
-<<<<<<< HEAD
-=======
     margin-top: 0px;
->>>>>>> lydia
   }
 }
 body main .locations .locations .container_locations_contacts h2 {
@@ -179,13 +220,10 @@ body main .locations .locations .container_locations_contacts ul li h3 {
   font-size: 16px;
   line-height: 26px;
 }
-<<<<<<< HEAD
-=======
 body main .locations .locations .container_locations_contacts ul li a {
   text-decoration: none;
   color: black;
 }
->>>>>>> lydia
 @media screen and (max-width: 570px) {
   body main .locations .locations .container_locations_contacts ul li {
     margin-top: 24px;
