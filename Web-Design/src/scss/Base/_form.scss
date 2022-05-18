@@ -1,3 +1,4 @@
+/*--------grid 6 box----------*/
 .main__section__first {
     display: grid; 
     grid-auto-flow: column; 
@@ -8,17 +9,18 @@
     grid-template-areas: 
       ". . ."
       ". . ."; 
-    justify-items: stretch; 
+    justify-items: center; 
     width: 1110px; 
-    height: 988px; 
+    height: 988px;
+    margin-left: 165px; 
   }
+  /*------info 6 box-----*/
   .__first__article {
     width: 350px;
-    height: 625px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: flex-end;
-	align-content: center;
+    height: 478px;
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  align-items: flex-end;
+	  align-content: center;
 }
