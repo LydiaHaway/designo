@@ -1,46 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import "../../../src/css/reset.css";
+@import "../../../src/scss/nav-header_and_footer";
 
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Jost", sans-serif;
 }
 
 body {
   max-width: 1440px;
   margin: 0 auto;
-
-  header {
-    margin-left: 5px;
-    margin-right: 5px;
-    .nav_header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1111px;
-      margin-top: 65px;
-      margin-bottom: 70px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .container-logo_header {
-      img {
-        height: 24px;
-      }
-    }
-    .list_nav_header {
-      display: flex;
-      gap: 42px;
-      list-style: none;
-      a {
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 400;
-        text-transform: uppercase;
-        line-height: 14px;
-      }
-    }
-  }
 
   main {
     .locations {
@@ -123,6 +91,10 @@ body {
             width: 100%;
             border-radius: 0%;
             margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+            margin-top: 0px;
+>>>>>>> lydia
           }
           h2 {
             color: #e7816b;
@@ -169,6 +141,14 @@ body {
                 line-height: 26px;
               }
 
+<<<<<<< HEAD
+=======
+              a {
+                text-decoration: none;
+                color: black;
+              }
+
+>>>>>>> lydia
               @media screen and (max-width: 570px) {
                 margin-top: 24px;
               }

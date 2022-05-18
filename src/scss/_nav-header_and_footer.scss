@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     header {
         .nav_header {
@@ -74,4 +75,82 @@ body {
             }
         }
     }
+=======
+body {
+    header {
+        .nav_header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1111px;
+            margin: 64px auto;
+
+            .container-logo_header {
+                height: 27px;
+                width: 202px;
+
+                .logo_header {
+                    width: 100%;
+                }
+            }
+
+            .list_nav_header {
+                display: flex;
+                gap: 42px;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    color: #333136;
+                }
+            }
+        }
+    }
+
+    footer {
+        .article_footer {}
+
+        .section_footer {
+            background: black;
+            .nav_footer {
+                .container-logo_footer {
+                    .logo_footer {}
+                }
+
+                .list_nav_footer {
+                    .item_nav_footer {}
+                }
+            }
+
+            .contact_footer {
+                .item_contact_footer {
+                    .title_contact_footer {}
+
+                    .adress_contact {}
+
+                    .data_contact {}
+                }
+            }
+
+            .address_footer {
+                .social_footer {
+                    .list_social {
+                        .item_social {
+                            a {
+                                svg {
+                                    path {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+>>>>>>> lydia
 }

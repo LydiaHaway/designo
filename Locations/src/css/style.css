@@ -1,42 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import "../../../src/css/reset.css";
+body header .nav_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1111px;
+  margin: 64px auto;
+}
+body header .nav_header .container-logo_header {
+  height: 27px;
+  width: 202px;
+}
+<<<<<<< HEAD
+body header .list_nav_header {
+=======
+body header .nav_header .container-logo_header .logo_header {
+  width: 100%;
+}
+body header .nav_header .list_nav_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+>>>>>>> lydia
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+body header .nav_header .list_nav_header a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+}
+body footer .section_footer {
+  background: black;
+}
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Jost", sans-serif;
 }
 
 body {
   max-width: 1440px;
   margin: 0 auto;
-}
-body header {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-body header .nav_header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1111px;
-  margin-top: 65px;
-  margin-bottom: 70px;
-  margin-left: auto;
-  margin-right: auto;
-}
-body header .container-logo_header img {
-  height: 24px;
-}
-body header .list_nav_header {
-  display: flex;
-  gap: 42px;
-  list-style: none;
-}
-body header .list_nav_header a {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 14px;
 }
 body main .locations .locations {
   display: flex;
@@ -120,6 +127,10 @@ body main .locations .locations .container_locations_contacts {
     width: 100%;
     border-radius: 0%;
     margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+    margin-top: 0px;
+>>>>>>> lydia
   }
 }
 body main .locations .locations .container_locations_contacts h2 {
@@ -168,6 +179,13 @@ body main .locations .locations .container_locations_contacts ul li h3 {
   font-size: 16px;
   line-height: 26px;
 }
+<<<<<<< HEAD
+=======
+body main .locations .locations .container_locations_contacts ul li a {
+  text-decoration: none;
+  color: black;
+}
+>>>>>>> lydia
 @media screen and (max-width: 570px) {
   body main .locations .locations .container_locations_contacts ul li {
     margin-top: 24px;
