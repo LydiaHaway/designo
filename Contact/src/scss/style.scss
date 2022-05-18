@@ -40,6 +40,18 @@ body {
           text-align: left;
         }
       }
+
+      form {
+        input {
+          border: none;
+          border-bottom: 2px solid white;
+          background-color: #e7816b;
+        }
+
+        textarea {
+          resize: none;
+        }
+      }
     }
   }
 }

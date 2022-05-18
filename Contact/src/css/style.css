@@ -143,4 +143,12 @@ body main .container_form .container_form--text p {
   line-height: 26px;
   letter-spacing: 0px;
   text-align: left;
+}
+body main .container_form form input {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #e7816b;
+}
+body main .container_form form textarea {
+  resize: none;
 }/*# sourceMappingURL=style.css.map */
