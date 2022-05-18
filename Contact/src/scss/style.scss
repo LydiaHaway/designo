@@ -20,14 +20,44 @@ body {
       align-items: center;
       color: white;
       position: relative;
+      overflow: hidden;
+
+      @media screen and (max-width: 970px) {
+        display: block;
+        max-width: 90%;
+        height: fit-content;
+      }
 
       .shape--form {
         position: absolute;
         left: 0px;
+
+        @media screen and (max-width: 970px) {
+          display: none;
+        }
+      }
+
+      .shape--form--tablet {
+        display: none;
+        position: absolute;
+
+        img {
+          height: 640px;
+        }
+
+        @media screen and (max-width: 970px) {
+          display: block;
+          top: 0px;
+        }
       }
 
       .container_form--text {
         width: 540px;
+
+        @media screen and (max-width: 970px) {
+          margin-left: 97px;
+          padding-top: 100px;
+        }
 
         h1 {
           font-size: 42px;
@@ -44,6 +74,10 @@ body {
           line-height: 26px;
           letter-spacing: 0px;
           text-align: left;
+
+          @media screen and (max-width: 970px) {
+            width: 573px;
+          }
         }
       }
 
@@ -51,12 +85,21 @@ body {
         height: 371px;
         width: 380px;
         padding: 55px 0px;
+        max-width: 573px;
+        @media screen and (max-width: 970px) {
+          margin-left: 97px;
+        }
+
         input {
           border: none;
           border-bottom: 2px solid white;
           background-color: #e7816b;
           width: 380px;
           height: 62px;
+
+          @media screen and (max-width: 970px) {
+            width: 573px;
+          }
 
           &::placeholder {
             color: white;
@@ -70,6 +113,10 @@ body {
           border: none;
           border-bottom: 2px solid white;
           background-color: #e7816b;
+
+          @media screen and (max-width: 970px) {
+            width: 573px;
+          }
 
           &::placeholder {
             color: white;
@@ -88,11 +135,21 @@ body {
         margin-bottom: 320px;
         gap: 178px;
 
+        @media screen and (max-width: 970px) {
+          display: block;
+          margin-bottom: 120px;
+          margin-top: 120px;
+        }
+
         li {
           text-align: center;
 
           img {
             margin-bottom: 48px;
+
+            @media screen and (max-width: 970px) {
+              margin-top: 58px;
+            }
           }
 
           h3 {
