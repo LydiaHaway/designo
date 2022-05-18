@@ -1,0 +1,31 @@
+/*------box orange header------*/
+.header__title {
+    width: 1111px;
+    height: 252px;
+    margin-left: 165px;
+    margin-bottom: 160px;
+    background-image: url(/src/img/background_header_orange.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*-----------main first 6 box---------*/
+.__first__box {
+    width: 350px;
+    height: 155px;
+    background-color: $beige;
+
+}
+.__first__image-picture {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.__first__box-title {
+    height: 26px;
+    text-align: center;
+} 
+.__first__box-text {
+    height: 52px;
+    text-align: center;
+}
