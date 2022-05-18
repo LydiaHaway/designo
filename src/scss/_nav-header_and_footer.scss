@@ -40,29 +40,71 @@ body {
 
         .section_footer {
             background: black;
+            width: 100%;
+
+
             .nav_footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1111px;
+                margin: 0px auto;
+
                 .container-logo_footer {
-                    .logo_footer {}
+                    height: 27px;
+                    width: 202px;
+
+                    .logo_footer {
+                        width: 100%;
+                    }
                 }
 
                 .list_nav_footer {
-                    .item_nav_footer {}
+                    display: flex;
+                    gap: 42px;
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                        line-height: 14px;
+                        letter-spacing: 2px;
+                        color: white;
+                    }
                 }
             }
 
-            .contact_footer {
-                .item_contact_footer {
-                    .title_contact_footer {}
+            .container-contact_footer {
+                max-width: 1111px;
+                display: flex;
+                margin: 0px auto;
 
-                    .adress_contact {}
+                .contact_footer {
+                    margin: 0px auto;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 30px;
 
-                    .data_contact {}
+                    .item_contact_footer {
+                        color: white;
+                        width: 350px;
+                        height: 78px;
+
+                        .title_contact_footer {}
+
+                        .adress_contact {}
+
+                        .data_contact {}
+                    }
                 }
-            }
 
-            .address_footer {
                 .social_footer {
                     .list_social {
+                        display: flex;
+                        gap: 16px;
+
                         .item_social {
                             a {
                                 svg {
