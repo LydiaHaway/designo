@@ -185,14 +185,14 @@ body main .locations .locations .container_img--mobile img {
   }
 }
 body main .locations .locations .container_locations_contacts {
-  background-image: url(../../../src/img/Locations/bg.png);
+  background: url(../../../src/img/Locations/bg.png) center/cover no-repeat;
   width: 730px;
   height: 326px;
   border-radius: 15px;
 }
 @media screen and (max-width: 900px) {
   body main .locations .locations .container_locations_contacts {
-    background-image: url(../../../src/img/Locations/bg-tablet.png);
+    background: url(../../../src/img/Locations/bg-tablet.png) center/cover no-repeat;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +201,7 @@ body main .locations .locations .container_locations_contacts {
 }
 @media screen and (max-width: 570px) {
   body main .locations .locations .container_locations_contacts {
-    background-image: url(../../../src/img/Locations/bg-phone.png);
+    background: url(../../../src/img/Locations/bg-phone.png) center/cover no-repeat;
     text-align: center;
     padding-bottom: 80px;
     width: 100%;
