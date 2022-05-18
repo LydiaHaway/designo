@@ -75,16 +75,46 @@ body main .locations .locations.united-kingdom {
 }
 @media screen and (max-width: 900px) {
   body main .locations .locations .container_img {
+    display: none;
+  }
+}
+body main .locations .locations .container_img--tablet {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  body main .locations .locations .container_img--tablet {
+    display: block;
     text-align: center;
   }
 }
-body main .locations .locations .container_img img {
-  border-radius: 15px;
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_img--tablet {
+    display: none;
+  }
 }
 @media screen and (max-width: 900px) {
-  body main .locations .locations .container_img img {
+  body main .locations .locations .container_img--tablet img {
     width: 90%;
     height: 350px;
+    border-radius: 15px;
+  }
+}
+body main .locations .locations .container_img--mobile {
+  display: none;
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_img--mobile {
+    display: block;
+    text-align: center;
+  }
+}
+body main .locations .locations .container_img--mobile img {
+  border-radius: 15px;
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_img--mobile img {
+    width: 100%;
+    border-radius: 0%;
   }
 }
 body main .locations .locations .container_locations_contacts {
@@ -98,6 +128,16 @@ body main .locations .locations .container_locations_contacts {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_locations_contacts {
+    text-align: center;
+    padding-bottom: 80px;
+    width: 100%;
+    border-radius: 0%;
+    margin-bottom: 40px;
   }
 }
 body main .locations .locations .container_locations_contacts h2 {
@@ -105,10 +145,22 @@ body main .locations .locations .container_locations_contacts h2 {
   margin-bottom: 24px;
   margin-left: 95px;
   margin-top: 100px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
 }
 @media screen and (max-width: 900px) {
   body main .locations .locations .container_locations_contacts h2 {
     margin-top: 10px;
+    padding-top: 88px;
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_locations_contacts h2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
   }
 }
 body main .locations .locations .container_locations_contacts ul {
@@ -119,8 +171,25 @@ body main .locations .locations .container_locations_contacts ul {
   gap: 60px;
   margin-left: 95px;
 }
+@media screen and (max-width: 900px) {
+  body main .locations .locations .container_locations_contacts ul {
+    margin-left: 75px;
+  }
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_locations_contacts ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 body main .locations .locations .container_locations_contacts ul li h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
+}
+@media screen and (max-width: 570px) {
+  body main .locations .locations .container_locations_contacts ul li {
+    margin-top: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
