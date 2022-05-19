@@ -139,6 +139,11 @@ body main .container_form {
     background: url(../../../src/img/Contact/bg-tablet.png) center/cover no-repeat;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .container_form {
+    background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
+  }
+}
 body main .container_form .shape--form {
   position: absolute;
   left: 0px;
@@ -156,6 +161,14 @@ body main .container_form .container_form--text {
     margin-left: 97px;
     padding-top: 100px;
     width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form .container_form--text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 72px;
   }
 }
 body main .container_form .container_form--text h1 {
@@ -178,6 +191,12 @@ body main .container_form .container_form--text p {
     width: 90%;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .container_form .container_form--text p {
+    text-align: center;
+    width: 100%;
+  }
+}
 body main .container_form form {
   height: 371px;
   width: 380px;
@@ -187,6 +206,13 @@ body main .container_form form {
   body main .container_form form {
     margin-left: 97px;
     width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 body main .container_form form input {
@@ -201,20 +227,30 @@ body main .container_form form input {
     width: 90%;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .container_form form input {
+    width: 100%;
+  }
+}
 body main .container_form form input::-webkit-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::-moz-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input:-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input:focus {
   outline: none;
@@ -233,20 +269,30 @@ body main .container_form form textarea {
     width: 90%;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .container_form form textarea {
+    width: 100%;
+  }
+}
 body main .container_form form textarea::-webkit-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form textarea::-moz-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form textarea:-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form textarea::-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form textarea::placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form textarea:focus {
   outline: none;
