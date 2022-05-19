@@ -15,11 +15,12 @@
     width: 350px;
     height: 155px;
     background-color: $beige;
-
 }
 .__first__image-picture {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    width: 100%;
+    display: block; 
 }
 .__first__box-title {
     height: 26px;
@@ -28,4 +29,14 @@
 .__first__box-text {
     height: 52px;
     text-align: center;
+}
+/*-------------main second 2 box-------*/
+.main__section__second {
+    width: 541;
+    height: 308;
+}
+.__second__img-picture {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    position: absolute;
 }
