@@ -144,6 +144,7 @@ body main .container_form {
 @media screen and (max-width: 500px) {
   body main .container_form {
     background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
+    padding-bottom: 72px;
   }
 }
 body main .container_form .container_form--text {
@@ -308,7 +309,7 @@ body main .container_see--location .list-location {
   body main .container_see--location .list-location {
     display: block;
     margin-bottom: 120px;
-    margin-top: 120px;
+    margin-top: 62px;
   }
 }
 body main .container_see--location .list-location li {
