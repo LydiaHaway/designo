@@ -395,4 +395,7 @@ body main .container_see--location .list-location li h3 {
   line-height: 26px;
   letter-spacing: 5px;
   margin-bottom: 32px;
+}
+body footer .section_footer {
+  padding-top: 79px;
 }/*# sourceMappingURL=style.css.map */
