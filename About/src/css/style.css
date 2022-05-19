@@ -1,1 +1,184 @@
-/*# sourceMappingURL=style.css.map */
+@import "../../../src/css/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+body header .nav_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1111px;
+  margin: 64px auto;
+}
+body header .nav_header .container-logo_header {
+  height: 27px;
+  width: 202px;
+}
+body header .nav_header .container-logo_header .logo_header {
+  width: 100%;
+}
+body header .nav_header .list_nav_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+body header .nav_header .list_nav_header a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+}
+body footer .section_footer {
+  background: black;
+  width: 100%;
+  padding-top: 144px;
+  padding-bottom: 72px;
+}
+body footer .section_footer .nav_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1111px;
+  margin: 0px auto;
+  padding-bottom: 40px;
+}
+body footer .section_footer .nav_footer .container-logo_footer {
+  height: 27px;
+  width: 202px;
+}
+body footer .section_footer .nav_footer .container-logo_footer .logo_footer {
+  width: 100%;
+}
+body footer .section_footer .nav_footer .list_nav_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+body footer .section_footer .nav_footer .list_nav_footer a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: white;
+}
+body footer .section_footer .container-contact_footer {
+  max-width: 1111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 31px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+body footer .section_footer .container-contact_footer .contact_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer {
+  width: 350px;
+  height: 78px;
+  font-weight: 700;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
+  font-weight: 400;
+}
+body footer .section_footer .container-contact_footer .social_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body footer .section_footer .container-contact_footer .social_footer .list_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+.view-projects {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

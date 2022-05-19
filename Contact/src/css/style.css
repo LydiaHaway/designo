@@ -1,5 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import "../../../src/css/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+.view-projects {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
 body header .nav_header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,6 +116,7 @@ body footer .section_footer .nav_footer {
           align-items: center;
   max-width: 1111px;
   margin: 0px auto;
+  padding-bottom: 40px;
 }
 body footer .section_footer .nav_footer .container-logo_footer {
   height: 27px;
@@ -84,31 +147,42 @@ body footer .section_footer .container-contact_footer {
   display: -ms-flexbox;
   display: flex;
   margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 31px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 body footer .section_footer .container-contact_footer .contact_footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 30px;
 }
 body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer {
-  color: white;
   width: 350px;
   height: 78px;
+  font-weight: 700;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
+  font-weight: 400;
+}
+body footer .section_footer .container-contact_footer .social_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 body footer .section_footer .container-contact_footer .social_footer .list_social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
-* {
-  font-family: "Jost", sans-serif;
-}
-
 body main .container_form {
   background: #e7816b;
   height: 480px;
@@ -125,9 +199,10 @@ body main .container_form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: #ffffff;
   position: relative;
   overflow: hidden;
+  background: url(../../../src/img/Contact/bg.png) center/cover no-repeat;
 }
 @media screen and (max-width: 970px) {
   body main .container_form {
@@ -142,15 +217,7 @@ body main .container_form {
 @media screen and (max-width: 500px) {
   body main .container_form {
     background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
-  }
-}
-body main .container_form .shape--form {
-  position: absolute;
-  left: 0px;
-}
-@media screen and (max-width: 970px) {
-  body main .container_form .shape--form {
-    display: none;
+    padding-bottom: 72px;
   }
 }
 body main .container_form .container_form--text {
@@ -172,18 +239,10 @@ body main .container_form .container_form--text {
   }
 }
 body main .container_form .container_form--text h1 {
-  font-size: 42px;
   margin-bottom: 32px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 48px;
 }
 body main .container_form .container_form--text p {
   width: 445px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0px;
   text-align: left;
 }
 @media screen and (max-width: 970px) {
@@ -233,23 +292,23 @@ body main .container_form form input {
   }
 }
 body main .container_form form input::-webkit-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::-moz-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input:-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input:focus {
@@ -260,7 +319,7 @@ body main .container_form form textarea {
   width: 380px;
   height: 126px;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffffff;
   background-color: rgba(231, 130, 107, 0);
   margin-top: 15px;
 }
@@ -275,23 +334,23 @@ body main .container_form form textarea {
   }
 }
 body main .container_form form textarea::-webkit-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::-moz-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea:-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea:focus {
@@ -315,7 +374,7 @@ body main .container_see--location .list-location {
   body main .container_see--location .list-location {
     display: block;
     margin-bottom: 120px;
-    margin-top: 120px;
+    margin-top: 62px;
   }
 }
 body main .container_see--location .list-location li {
@@ -336,4 +395,7 @@ body main .container_see--location .list-location li h3 {
   line-height: 26px;
   letter-spacing: 5px;
   margin-bottom: 32px;
+}
+body footer .section_footer {
+  padding-top: 79px;
 }/*# sourceMappingURL=style.css.map */
