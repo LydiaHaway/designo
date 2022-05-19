@@ -1,10 +1,77 @@
+@import "../../../src/css/reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-@import "../../../src/css/reset.css";
-@import "../../../src/css/reset.css";
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: initial;
+}
+
+.view-projects {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
 body header .nav_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 1111px;
   margin: 64px auto;
 }
@@ -16,6 +83,8 @@ body header .nav_header .container-logo_header .logo_header {
   width: 100%;
 }
 body header .nav_header .list_nav_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 42px;
   list-style: none;
@@ -36,9 +105,15 @@ body footer .section_footer {
   padding-bottom: 72px;
 }
 body footer .section_footer .nav_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 1111px;
   margin: 0px auto;
   padding-bottom: 40px;
@@ -51,6 +126,8 @@ body footer .section_footer .nav_footer .container-logo_footer .logo_footer {
   width: 100%;
 }
 body footer .section_footer .nav_footer .list_nav_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 42px;
   list-style: none;
@@ -66,13 +143,19 @@ body footer .section_footer .nav_footer .list_nav_footer a {
 }
 body footer .section_footer .container-contact_footer {
   max-width: 1111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0px auto;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 31px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 body footer .section_footer .container-contact_footer .contact_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 30px;
 }
@@ -88,17 +171,18 @@ body footer .section_footer .container-contact_footer .contact_footer .item_cont
   font-weight: 400;
 }
 body footer .section_footer .container-contact_footer .social_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 body footer .section_footer .container-contact_footer .social_footer .list_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 16px;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
-* {
-  font-family: "Jost", sans-serif;
-}
-
 body main .container_form {
   background: #e7816b;
   height: 480px;
@@ -106,9 +190,15 @@ body main .container_form {
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   position: relative;
   overflow: hidden;
@@ -209,11 +299,19 @@ body main .container_form form input {
     width: 100%;
   }
 }
+body main .container_form form input::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
 body main .container_form form input::-moz-placeholder {
   color: white;
   opacity: 0.5;
 }
 body main .container_form form input:-ms-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+body main .container_form form input::-ms-input-placeholder {
   color: white;
   opacity: 0.5;
 }
@@ -243,11 +341,19 @@ body main .container_form form textarea {
     width: 100%;
   }
 }
+body main .container_form form textarea::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
 body main .container_form form textarea::-moz-placeholder {
   color: white;
   opacity: 0.5;
 }
 body main .container_form form textarea:-ms-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+body main .container_form form textarea::-ms-input-placeholder {
   color: white;
   opacity: 0.5;
 }
@@ -259,9 +365,15 @@ body main .container_form form textarea:focus {
   outline: none;
 }
 body main .container_see--location .list-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 160px;
   margin-bottom: 320px;
   gap: 178px;

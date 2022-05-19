@@ -1,11 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import "../../../src/css/reset.css";
+@import "../../../src/scss/font";
 @import "../../../src/scss/nav-header_and_footer";
-@import "../../../src/css/reset.css";
-
-* {
-  font-family: "Jost", sans-serif;
-}
 
 body {
   max-width: 1440px;
