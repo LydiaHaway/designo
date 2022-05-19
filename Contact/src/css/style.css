@@ -199,7 +199,7 @@ body main .container_form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
+  color: #ffffff;
   position: relative;
   overflow: hidden;
   background: url(../../../src/img/Contact/bg.png) center/cover no-repeat;
@@ -292,23 +292,23 @@ body main .container_form form input {
   }
 }
 body main .container_form form input::-webkit-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::-moz-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input:-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input::placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form input:focus {
@@ -319,7 +319,7 @@ body main .container_form form textarea {
   width: 380px;
   height: 126px;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #ffffff;
   background-color: rgba(231, 130, 107, 0);
   margin-top: 15px;
 }
@@ -334,23 +334,23 @@ body main .container_form form textarea {
   }
 }
 body main .container_form form textarea::-webkit-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::-moz-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea:-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::-ms-input-placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea::placeholder {
-  color: white;
+  color: #ffffff;
   opacity: 0.5;
 }
 body main .container_form form textarea:focus {

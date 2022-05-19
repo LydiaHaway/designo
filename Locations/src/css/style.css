@@ -340,7 +340,7 @@ body main .locations .locations .container_locations_contacts ul li h4 {
 }
 body main .locations .locations .container_locations_contacts ul li a {
   text-decoration: none;
-  color: black;
+  color: #1d1c1e;
   font-size: 15px;
 }
 @media screen and (max-width: 570px) {
