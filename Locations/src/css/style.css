@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import "../../../src/css/reset.css";
+@import "../../../src/css/reset.css";
 body header .nav_header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,6 +165,7 @@ body main .locations .locations .container_img--tablet {
     width: 90%;
     height: 350px;
     border-radius: 15px;
+    display: block;
   }
 }
 body main .locations .locations .container_img--mobile {
@@ -173,6 +175,7 @@ body main .locations .locations .container_img--mobile {
   body main .locations .locations .container_img--mobile {
     display: block;
     text-align: center;
+    margin-bottom: 0;
   }
 }
 body main .locations .locations .container_img--mobile img {
@@ -207,7 +210,7 @@ body main .locations .locations .container_locations_contacts {
     width: 100%;
     border-radius: 0%;
     margin-bottom: 40px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 body main .locations .locations .container_locations_contacts h2 {
