@@ -40,6 +40,7 @@ body footer .section_footer .nav_footer {
   align-items: center;
   max-width: 1111px;
   margin: 0px auto;
+  padding-bottom: 40px;
 }
 body footer .section_footer .nav_footer .container-logo_footer {
   height: 27px;
@@ -47,30 +48,13 @@ body footer .section_footer .nav_footer .container-logo_footer {
 }
 body footer .section_footer .nav_footer .container-logo_footer .logo_footer {
   width: 100%;
-  padding-top: 144px;
-  padding-bottom: 72px;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav_footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1111px;
-  margin: 0px auto;
-  padding-bottom: 40px;
-}
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav_footer .container-logo_footer {
-  height: 27px;
-  width: 202px;
-}
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav_footer .container-logo_footer .logo_footer {
-  width: 100%;
-}
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav_footer .list_nav_footer {
+body footer .section_footer .nav_footer .list_nav_footer {
   display: flex;
   gap: 42px;
   list-style: none;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav_footer .list_nav_footer a {
+body footer .section_footer .nav_footer .list_nav_footer a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
@@ -79,7 +63,7 @@ body footer .section_footer .nav_footer .container-logo_footer .logo_footer .nav
   letter-spacing: 2px;
   color: white;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer {
+body footer .section_footer .container-contact_footer {
   max-width: 1111px;
   display: flex;
   margin: 0px auto;
@@ -87,11 +71,11 @@ body footer .section_footer .nav_footer .container-logo_footer .logo_footer .con
   padding-top: 31px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer .contact_footer {
+body footer .section_footer .container-contact_footer .contact_footer {
   display: flex;
   gap: 30px;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer .contact_footer .item_contact_footer {
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer {
   width: 350px;
   height: 78px;
   font-weight: 700;
@@ -99,49 +83,16 @@ body footer .section_footer .nav_footer .container-logo_footer .logo_footer .con
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
   font-weight: 400;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer .social_footer {
+body footer .section_footer .container-contact_footer .social_footer {
   display: flex;
 }
-body footer .section_footer .nav_footer .container-logo_footer .logo_footer .container-contact_footer .social_footer .list_social {
+body footer .section_footer .container-contact_footer .social_footer .list_social {
   display: flex;
   gap: 16px;
   align-self: flex-end;
-}
-body footer .section_footer .nav_footer .container-logo_footer .list_nav_footer {
-  display: flex;
-  gap: 42px;
-  list-style: none;
-}
-body footer .section_footer .nav_footer .container-logo_footer .list_nav_footer a {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 14px;
-  letter-spacing: 2px;
-  color: white;
-}
-body footer .section_footer .nav_footer .container-contact_footer {
-  max-width: 1111px;
-  display: flex;
-  margin: 0px auto;
-}
-body footer .section_footer .nav_footer .container-contact_footer .contact_footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-body footer .section_footer .nav_footer .container-contact_footer .contact_footer .item_contact_footer {
-  color: white;
-  width: 350px;
-  height: 78px;
-}
-body footer .section_footer .nav_footer .container-contact_footer .social_footer .list_social {
-  display: flex;
-  gap: 16px;
 }
 * {
   font-family: "Jost", sans-serif;
