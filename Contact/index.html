@@ -41,10 +41,14 @@
           </p>
         </div>
         <form action="" method="get" id="form">
-          <input type="text" id="name" placeholder="Name" required /> <br />
-          <input type="email" id="mail" placeholder="Email Address" required /> <br />
-          <input type="tel" id="number" placeholder="Phone" required /> <br />
-          <textarea placeholder="Your Message" required ></textarea> <br> 
+          <input type="text" id="name" placeholder="Name" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <input type="email" id="mail" placeholder="Email Address" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <input type="tel" id="number" placeholder="Phone" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <textarea placeholder="Your Message" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" ></textarea> <br> 
           <button type="submit" class="dark" form="form">Submit</button>
         </form>
       </section>
