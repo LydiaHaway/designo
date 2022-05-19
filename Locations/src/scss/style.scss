@@ -201,6 +201,27 @@ body {
           color: $white;
         }
       }
+
+      @media screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+      }
+
+      h2 {
+        @media screen and (max-width: 900px) {
+          margin-bottom: 30px;
+        }
+      }
+
+      p {
+        @media screen and (max-width: 900px) {
+          margin-bottom: 30px;
+        }
+      }
     }
   }
 }
