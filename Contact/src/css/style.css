@@ -239,18 +239,10 @@ body main .container_form .container_form--text {
   }
 }
 body main .container_form .container_form--text h1 {
-  font-size: 42px;
   margin-bottom: 32px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 48px;
 }
 body main .container_form .container_form--text p {
   width: 445px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0px;
   text-align: left;
 }
 @media screen and (max-width: 970px) {

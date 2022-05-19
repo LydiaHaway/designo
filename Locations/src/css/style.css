@@ -295,9 +295,6 @@ body main .locations .locations .container_locations_contacts h2 {
   margin-bottom: 24px;
   margin-left: 95px;
   margin-top: 100px;
-  font-size: 40px;
-  line-height: 48px;
-  font-weight: 500;
 }
 @media screen and (max-width: 900px) {
   body main .locations .locations .container_locations_contacts h2 {
@@ -336,7 +333,7 @@ body main .locations .locations .container_locations_contacts ul {
 body main .locations .locations .container_locations_contacts ul li {
   font-size: 15px;
 }
-body main .locations .locations .container_locations_contacts ul li h3 {
+body main .locations .locations .container_locations_contacts ul li h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
