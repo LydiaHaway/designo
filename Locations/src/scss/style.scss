@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import "../../../src/css/reset.css";
 @import "../../../src/scss/nav-header_and_footer";
+@import "../../../src/css/reset.css";
 
 * {
   font-family: "Jost", sans-serif;
@@ -52,6 +53,9 @@ body {
               width: 90%;
               height: 350px;
               border-radius: 15px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
             }
           }
         }
@@ -62,6 +66,8 @@ body {
           @media screen and (max-width: 570px) {
             display: block;
             text-align: center;
+            margin: 0;
+            padding: 0;
           }
 
           img {
@@ -96,7 +102,8 @@ body {
             width: 100%;
             border-radius: 0%;
             margin-bottom: 40px;
-            margin-top: 0px;
+            margin-top: 0;
+            display: inline-block;
           }
           h2 {
             color: #e7816b;
@@ -137,6 +144,7 @@ body {
             }
 
             li {
+              font-size: 15px;
               h3 {
                 font-weight: 700;
                 font-size: 16px;
@@ -146,6 +154,7 @@ body {
               a {
                 text-decoration: none;
                 color: black;
+                font-size: 15px;
               }
 
               @media screen and (max-width: 570px) {

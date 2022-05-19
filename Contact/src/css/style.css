@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import "../../../src/css/reset.css";
+@import "../../../src/css/reset.css";
 body header .nav_header {
   display: flex;
   justify-content: space-between;
@@ -111,6 +112,7 @@ body main .container_form {
   color: white;
   position: relative;
   overflow: hidden;
+  background: url(../../../src/img/Contact/bg.png) center/cover no-repeat;
 }
 @media screen and (max-width: 970px) {
   body main .container_form {
@@ -125,15 +127,7 @@ body main .container_form {
 @media screen and (max-width: 500px) {
   body main .container_form {
     background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
-  }
-}
-body main .container_form .shape--form {
-  position: absolute;
-  left: 0px;
-}
-@media screen and (max-width: 970px) {
-  body main .container_form .shape--form {
-    display: none;
+    padding-bottom: 72px;
   }
 }
 body main .container_form .container_form--text {
@@ -276,7 +270,7 @@ body main .container_see--location .list-location {
   body main .container_see--location .list-location {
     display: block;
     margin-bottom: 120px;
-    margin-top: 120px;
+    margin-top: 62px;
   }
 }
 body main .container_see--location .list-location li {
