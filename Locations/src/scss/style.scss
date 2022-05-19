@@ -8,6 +8,8 @@ body {
   margin: 0 auto;
 
   main {
+    margin-bottom: 160px;
+
     .locations {
       .locations {
         display: flex;
@@ -156,6 +158,22 @@ body {
             }
           }
         }
+      }
+    }
+  }
+
+  footer {
+    button {
+      height: 56px;
+      width: 152px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      float: right;
+
+      &:hover {
+        background-color: $lightPeach;
+        color: $white;
       }
     }
   }

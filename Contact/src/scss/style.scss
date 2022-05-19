@@ -4,6 +4,8 @@
 @import "../../../src/scss/nav-header_and_footer";
 
 body {
+  max-width: 1440px;
+  margin: 0 auto;
   main {
     .container_form {
       background: $peach;
@@ -217,6 +219,7 @@ body {
   footer {
     .section_footer {
       padding-top: 79px;
+      margin-top: -150px;
     }
   }
 }
