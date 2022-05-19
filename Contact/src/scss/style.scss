@@ -7,7 +7,6 @@ body {
   main {
     .container_form {
       background: $peach;
-      height: 480px;
       max-width: 1111px;
       border-radius: 15px;
       margin-left: auto;
@@ -28,10 +27,9 @@ body {
           no-repeat;
       }
 
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 600px) {
         background: url(../../../src/img/Contact/bg-mobile.png) center/cover
           no-repeat;
-        padding-bottom: 72px;
       }
       .container_form--text {
         width: 540px;
@@ -42,7 +40,7 @@ body {
           width: 80%;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 600px) {
           margin-left: auto;
           margin-right: auto;
           text-align: center;
@@ -61,7 +59,7 @@ body {
             width: 90%;
           }
 
-          @media screen and (max-width: 500px) {
+          @media screen and (max-width: 600px) {
             text-align: center;
             width: 100%;
           }
@@ -69,18 +67,19 @@ body {
       }
 
       form {
-        height: 371px;
         width: 380px;
         padding: 55px 0px;
+
         @media screen and (max-width: 970px) {
           margin-left: 97px;
-          width: 80%;
+          width: 75%;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 600px) {
           width: 90%;
           margin-left: auto;
           margin-right: auto;
+          text-align: center;
         }
 
         input {
@@ -91,10 +90,10 @@ body {
           height: 62px;
 
           @media screen and (max-width: 970px) {
-            width: 90%;
+            width: 100%;
           }
 
-          @media screen and (max-width: 500px) {
+          @media screen and (max-width: 600px) {
             width: 100%;
           }
 
@@ -116,12 +115,13 @@ body {
           border-bottom: 2px solid $white;
           background-color: #e7826b00;
           margin-top: 15px;
+          margin-bottom: 24px;
 
           @media screen and (max-width: 970px) {
-            width: 90%;
+            width: 100%;
           }
 
-          @media screen and (max-width: 500px) {
+          @media screen and (max-width: 600px) {
             width: 100%;
           }
 
@@ -132,6 +132,25 @@ body {
 
           &:focus {
             outline: none;
+          }
+        }
+
+        button {
+          height: 56px;
+          width: 152px;
+          border-radius: 8px;
+          border: 1px solid $white;
+          cursor: pointer;
+          float: right;
+
+          @media screen and (max-width: 970px) {
+            margin-bottom: 72px;
+          }
+
+          @media screen and (max-width: 600px) {
+            float: none;
+            margin-bottom: 16px;
+            margin-top: 16px;
           }
         }
       }
