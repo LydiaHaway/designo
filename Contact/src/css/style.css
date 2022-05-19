@@ -127,13 +127,49 @@ body main .container_form {
           align-items: center;
   color: white;
   position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 970px) {
+  body main .container_form {
+    display: block;
+    max-width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background: url(../../../src/img/Contact/bg-tablet.png) center/cover no-repeat;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form {
+    background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
+  }
 }
 body main .container_form .shape--form {
   position: absolute;
   left: 0px;
 }
+@media screen and (max-width: 970px) {
+  body main .container_form .shape--form {
+    display: none;
+  }
+}
 body main .container_form .container_form--text {
   width: 540px;
+}
+@media screen and (max-width: 970px) {
+  body main .container_form .container_form--text {
+    margin-left: 97px;
+    padding-top: 100px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form .container_form--text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 72px;
+  }
 }
 body main .container_form .container_form--text h1 {
   font-size: 42px;
@@ -150,32 +186,74 @@ body main .container_form .container_form--text p {
   letter-spacing: 0px;
   text-align: left;
 }
+@media screen and (max-width: 970px) {
+  body main .container_form .container_form--text p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form .container_form--text p {
+    text-align: center;
+    width: 100%;
+  }
+}
 body main .container_form form {
   height: 371px;
   width: 380px;
   padding: 55px 0px;
 }
+@media screen and (max-width: 970px) {
+  body main .container_form form {
+    margin-left: 97px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 body main .container_form form input {
   border: none;
   border-bottom: 2px solid white;
-  background-color: #e7816b;
+  background-color: rgba(231, 130, 107, 0);
   width: 380px;
   height: 62px;
 }
+@media screen and (max-width: 970px) {
+  body main .container_form form input {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form form input {
+    width: 100%;
+  }
+}
 body main .container_form form input::-webkit-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::-moz-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input:-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::-ms-input-placeholder {
   color: white;
+  opacity: 0.5;
 }
 body main .container_form form input::placeholder {
   color: white;
+  opacity: 0.5;
+}
+body main .container_form form input:focus {
+  outline: none;
 }
 body main .container_form form textarea {
   resize: none;
@@ -183,27 +261,41 @@ body main .container_form form textarea {
   height: 126px;
   border: none;
   border-bottom: 2px solid white;
-  background-color: #e7816b;
+  background-color: rgba(231, 130, 107, 0);
+  margin-top: 15px;
+}
+@media screen and (max-width: 970px) {
+  body main .container_form form textarea {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .container_form form textarea {
+    width: 100%;
+  }
 }
 body main .container_form form textarea::-webkit-input-placeholder {
   color: white;
-  padding-top: 15px;
+  opacity: 0.5;
 }
 body main .container_form form textarea::-moz-placeholder {
   color: white;
-  padding-top: 15px;
+  opacity: 0.5;
 }
 body main .container_form form textarea:-ms-input-placeholder {
   color: white;
-  padding-top: 15px;
+  opacity: 0.5;
 }
 body main .container_form form textarea::-ms-input-placeholder {
   color: white;
-  padding-top: 15px;
+  opacity: 0.5;
 }
 body main .container_form form textarea::placeholder {
   color: white;
-  padding-top: 15px;
+  opacity: 0.5;
+}
+body main .container_form form textarea:focus {
+  outline: none;
 }
 body main .container_see--location .list-location {
   display: -webkit-box;
@@ -219,11 +311,23 @@ body main .container_see--location .list-location {
   margin-bottom: 320px;
   gap: 178px;
 }
+@media screen and (max-width: 970px) {
+  body main .container_see--location .list-location {
+    display: block;
+    margin-bottom: 120px;
+    margin-top: 120px;
+  }
+}
 body main .container_see--location .list-location li {
   text-align: center;
 }
 body main .container_see--location .list-location li img {
   margin-bottom: 48px;
+}
+@media screen and (max-width: 970px) {
+  body main .container_see--location .list-location li img {
+    margin-top: 58px;
+  }
 }
 body main .container_see--location .list-location li h3 {
   text-transform: uppercase;
