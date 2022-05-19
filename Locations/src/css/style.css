@@ -233,6 +233,25 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+@media screen and (max-width: 630px) {
+  body header .nav_header .container-logo_header {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 630px) {
+  body header .nav_header .list_nav_header {
+    display: none;
+  }
+}
+body header .nav_header .menuBurger {
+  display: none;
+}
+@media screen and (max-width: 630px) {
+  body header .nav_header .menuBurger {
+    display: block;
+    margin-right: 12px;
+  }
+}
 body main {
   margin-bottom: 160px;
 }
@@ -397,7 +416,7 @@ body main .locations .locations .container_locations_contacts ul li a {
     margin-top: 24px;
   }
 }
-body footer button {
+body footer .article_footer button {
   height: 56px;
   width: 152px;
   border-radius: 8px;
@@ -405,7 +424,7 @@ body footer button {
   cursor: pointer;
   float: right;
 }
-body footer button:hover {
+body footer .article_footer button:hover {
   background-color: #ffad9b;
   color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
