@@ -1,3 +1,99 @@
 @import "reset.css";
 @import "_font";
 @import "_nav-header_and_footer";
+
+body {
+    header {
+        .article_header {
+            max-width: 1111px;
+            height: 640px;
+            margin: 0px auto;
+            margin-top: 3px;
+            display: flex;
+            align-items: center;
+            background: #E7816B;
+            color: white;
+            padding: 0px 95px;
+            border-radius: 15px;
+            justify-content: space-between;
+            box-sizing: border-box;
+
+            .container-txt_article_header {
+                width: 540px;
+
+                .title_article_header {
+                    padding-bottom: 21px;
+                    margin-bottom: 11px;
+                }
+
+                .txt_article_header {
+                    margin-bottom: 40px;
+                }
+            }
+
+            .container-img_article_header {
+                align-self: flex-end;
+
+                .img_article_header {
+                    display: block;
+                    filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
+                }
+            }
+        }
+    }
+
+    main {
+        .projects {
+            color: white;
+            text-align: center;
+            display: grid;
+            grid-template: 1fr 1fr/ 1fr 1fr;
+            gap: 24px 30px;
+            grid-template-areas:
+                "web ."
+                "web .";
+            max-width: 1111px;
+            margin: 160px auto;
+
+            #web_design {
+                grid-area: web;
+            }
+
+            .article_projects {
+                position: relative;
+
+                a {
+                    .container-txt_article_projects {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        .title_article_projects {
+                            margin-bottom: 24px;
+                            width: 360px;
+
+                        }
+                    }
+
+                    .container-img_article_projects {
+                        max-width: 541px;
+
+                        .img_article_projects {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .softskills {
+            text-align: center;
+            .list_softskills {
+                display:flex;
+            }
+        }
+    }
+}
