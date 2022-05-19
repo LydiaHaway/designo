@@ -359,9 +359,13 @@ body main .container_form form button {
   height: 56px;
   width: 152px;
   border-radius: 8px;
-  border: 1px solid #ffffff;
+  border: none;
   cursor: pointer;
   float: right;
+}
+body main .container_form form button:hover {
+  background-color: #ffad9b;
+  color: #ffffff;
 }
 @media screen and (max-width: 970px) {
   body main .container_form form button {
@@ -414,6 +418,18 @@ body main .container_see--location .list-location li h3 {
   line-height: 26px;
   letter-spacing: 5px;
   margin-bottom: 32px;
+}
+body main .container_see--location .list-location li button {
+  height: 56px;
+  width: 152px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #e7816b;
+  border: none;
+  cursor: pointer;
+}
+body main .container_see--location .list-location li button:hover {
+  background-color: #ffad9b;
 }
 body footer .section_footer {
   padding-top: 79px;
