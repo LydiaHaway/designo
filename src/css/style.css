@@ -261,7 +261,17 @@ body main .projects .article_projects a .container-img_article_projects .img_art
 }
 body main .softskills {
   text-align: center;
+  max-width: 1111px;
+  margin: 0 auto;
+  margin-bottom: 160px;
 }
 body main .softskills .list_softskills {
   display: flex;
+  gap: 30px;
+}
+body main .softskills .list_softskills .item_softskills .container-img_item_softskills {
+  margin-bottom: 48px;
+}
+body main .softskills .list_softskills .item_softskills .title_item_softskills {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
