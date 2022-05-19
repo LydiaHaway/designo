@@ -416,13 +416,18 @@ body main .locations .locations .container_locations_contacts ul li a {
     margin-top: 24px;
   }
 }
+@media screen and (max-width: 900px) {
+  body footer {
+    width: 100%;
+  }
+}
 body footer .article_footer button {
   height: 56px;
   width: 152px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  float: right;
+  display: inline-block;
 }
 body footer .article_footer button:hover {
   background-color: #ffad9b;
@@ -444,16 +449,38 @@ body footer .article_footer button:hover {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    width: 90%;
+    width: 95%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body footer .article_footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 900px) {
-  body footer .article_footer h2 {
+  body footer .article_footer .container-txt_article_footer {
+    width: 100%;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body footer .article_footer .container-txt_article_footer h2 {
     margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 900px) {
-  body footer .article_footer p {
+  body footer .article_footer .container-txt_article_footer p {
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  body footer .black-back_article_footer {
+    height: 900px;
   }
 }/*# sourceMappingURL=style.css.map */
