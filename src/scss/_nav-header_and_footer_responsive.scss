@@ -32,8 +32,10 @@ body {
           }
 
           a {
+            color: #333136;
             &:hover {
               text-decoration: underline;
+              text-decoration-color: #33313646;
 
               @media screen and (max-width: 630px) {
                 text-decoration: none;
