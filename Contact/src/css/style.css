@@ -704,4 +704,10 @@ body main .container_see--location .list-location li button:hover {
 body footer .section_footer {
   padding-top: 79px;
   margin-top: -150px;
+}
+@media screen and (max-width: 970px) {
+  body footer .section_footer {
+    padding-top: 79px;
+    margin-top: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
