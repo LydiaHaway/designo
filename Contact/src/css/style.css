@@ -237,6 +237,7 @@ body footer .section_footer .container-contact_footer .social_footer .list_socia
   body header .nav_header .list_nav_header {
     display: none;
     position: absolute;
+    z-index: 2;
     background-color: #1d1c1e;
     width: 100%;
     text-align: left;
