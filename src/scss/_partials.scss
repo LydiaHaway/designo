@@ -4,3 +4,61 @@ $black: #1d1c1e;
 $darkGrey: #333136;
 $white: #ffffff;
 $lightGrey: #f1f3f5db;
+
+@mixin tablet {
+    @media screen and (max-width: 1023px) {
+        @content
+    }
+
+    ;
+}
+
+@mixin mobile {
+    @media screen and (max-width: 500px) {
+        @content
+    }
+
+    ;
+}
+
+@mixin img_display {
+
+    &.tablet {
+        display: none;
+    }
+
+    &.mobile {
+        display: none;
+    }
+
+    &.desktop {
+        display: block;
+    }
+    @include tablet {
+        &.tablet {
+            display: block;
+        }
+
+        &.mobile {
+            display: none;
+        }
+
+        &.desktop {
+            display: none;
+        }
+    }
+
+    @include mobile {
+        &.tablet {
+            display: none;
+        }
+
+        &.mobile {
+            display: block;
+        }
+
+        &.desktop {
+            display: none;
+        }
+    }
+}
