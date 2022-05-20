@@ -1,6 +1,16 @@
 @import "reset.css";
 @import "_font";
+@import "_partials";
 @import "_nav-header_and_footer";
+@import "_nav-header_and_footer_responsive";
+
+.tablet {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
 
 body {
     header {
@@ -8,7 +18,6 @@ body {
             max-width: 1111px;
             height: 640px;
             margin: 0px auto;
-            margin-top: 3px;
             display: flex;
             align-items: center;
             background: #E7816B;
@@ -19,15 +28,16 @@ body {
             box-sizing: border-box;
 
             .container-txt_article_header {
-                width: 540px;
+                max-width: 540px;
 
                 .title_article_header {
-                    padding-bottom: 21px;
-                    margin-bottom: 11px;
+
+                    margin-bottom: 32px;
                 }
 
                 .txt_article_header {
                     margin-bottom: 40px;
+                    max-width: 445px;
                 }
             }
 
@@ -35,7 +45,6 @@ body {
                 align-self: flex-end;
 
                 .img_article_header {
-                    display: block;
                     filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
                 }
             }
@@ -68,6 +77,8 @@ body {
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
+                        z-index: 1;
+
 
                         .title_article_projects {
                             margin-bottom: 24px;
@@ -85,6 +96,19 @@ body {
                         }
                     }
 
+                    &:hover .hover_projects {
+                        background: #E7816B;
+                        mix-blend-mode: normal;
+                        opacity: 0.8;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 15px;
+                    }
+
                 }
             }
         }
@@ -94,18 +118,25 @@ body {
             max-width: 1111px;
             margin: 0 auto;
             margin-bottom: 160px;
+
             .list_softskills {
-                display:flex;
+                display: flex;
                 gap: 30px;
+
                 .item_softskills {
-                    .container-img_item_softskills{
+                    .container-img_item_softskills {
                         margin-bottom: 48px;
                     }
-                    .title_item_softskills {
-                        margin-bottom: 32px;
+
+                    .container-txt_item_softskills {
+                        .title_item_softskills {
+                            margin-bottom: 32px;
+                        }
                     }
                 }
             }
         }
     }
 }
+
+@import "_tablet_home";
