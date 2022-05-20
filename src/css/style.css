@@ -398,14 +398,6 @@ body header .nav_header .passive {
   }
 }
 
-.tablet {
-  display: none;
-}
-
-.mobile {
-  display: none;
-}
-
 body header .article_header {
   max-width: 1111px;
   height: 640px;

@@ -4,14 +4,6 @@
 @import "_nav-header_and_footer";
 @import "_nav-header_and_footer_responsive";
 
-.tablet {
-    display: none;
-}
-
-.mobile {
-    display: none;
-}
-
 body {
     header {
         .article_header {
@@ -139,4 +131,4 @@ body {
     }
 }
 
-@import "_tablet_home";
+@import "_responsive_home";
