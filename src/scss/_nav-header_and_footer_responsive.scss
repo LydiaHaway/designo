@@ -7,13 +7,33 @@ body {
         }
       }
       .list_nav_header {
-        a {
-          &:hover {
-            text-decoration: underline;
-          }
-        }
         @media screen and (max-width: 630px) {
           display: none;
+          position: absolute;
+          background-color: $black;
+          width: 100%;
+          text-align: left;
+          padding-left: 24px;
+          padding-top: 48px;
+          padding-bottom: 16px;
+          top: 100px;
+          left: 0px;
+        }
+
+        li {
+          @media screen and (max-width: 630px) {
+            margin-bottom: 32px;
+          }
+
+          a {
+            @media screen and (max-width: 630px) {
+              color: $white;
+              font-size: 24px;
+              font-weight: 400;
+              line-height: 25px;
+              letter-spacing: 2px;
+            }
+          }
         }
       }
 
@@ -24,6 +44,19 @@ body {
           display: block;
           margin-right: 12px;
         }
+      }
+
+      .menuBurgerExit {
+        display: none;
+        margin-right: 12px;
+      }
+
+      .active {
+        display: block;
+      }
+
+      .passive {
+        display: none;
       }
     }
   }

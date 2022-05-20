@@ -8,30 +8,6 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 
-  header {
-    .nav_header {
-      .container-logo_header {
-        @media screen and (max-width: 630px) {
-          margin-left: 10px;
-        }
-      }
-      .list_nav_header {
-        @media screen and (max-width: 630px) {
-          display: none;
-        }
-      }
-
-      .menuBurger {
-        display: none;
-
-        @media screen and (max-width: 630px) {
-          display: block;
-          margin-right: 12px;
-        }
-      }
-    }
-  }
-
   main {
     margin-bottom: 160px;
 
