@@ -7,6 +7,13 @@ h1 {
   line-height: 48px;
   letter-spacing: 2px;
 }
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: initial;
+  }
+}
 
 h2 {
   font-style: normal;
@@ -60,6 +67,13 @@ form {
   line-height: 22px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+@media screen and (max-width: 500px) {
+  .view-projects .container-txt_article_projects .title_article_projects {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1.4px;
+  }
 }
 
 body header .nav_header {
@@ -194,6 +208,13 @@ body footer .section_footer .container-contact_footer .social_footer .list_socia
   fill: #FFAD9B;
 }
 
+@media screen and (max-width: 900px) {
+  body header {
+    max-width: 689px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (max-width: 630px) {
   body header .nav_header .container-logo_header {
     margin-left: 10px;
@@ -485,11 +506,25 @@ body main .softskills .list_softskills .item_softskills .container-txt_item_soft
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  body header .article_header {
+    width: 100%;
+    border-radius: initial;
+    height: initial;
+    padding: 0;
+  }
+}
 @media screen and (max-width: 1023px) {
   body header .article_header .container-txt_article_header {
     max-width: 573px;
     margin-top: 60px;
     margin-bottom: 69px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header .article_header .container-txt_article_header {
+    max-width: 327px;
+    margin: 80px auto;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -498,10 +533,22 @@ body main .softskills .list_softskills .item_softskills .container-txt_item_soft
     margin-bottom: 29px;
   }
 }
+@media screen and (max-width: 500px) {
+  body header .article_header .container-txt_article_header .title_article_header {
+    margin-bottom: 24px;
+  }
+}
 @media screen and (max-width: 1023px) {
   body header .article_header .container-txt_article_header .txt_article_header {
     margin: 0 auto;
     margin-bottom: 19px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body header .article_header .container-txt_article_header .txt_article_header {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 24px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -548,6 +595,11 @@ body header .article_header .container-img_article_header .img_article_header.de
     flex-direction: column;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .projects {
+    max-width: 327px;
+  }
+}
 @media screen and (max-width: 1023px) {
   body main .projects .article_projects a .container-img_article_projects {
     max-width: 689px;
@@ -590,6 +642,12 @@ body main .projects .article_projects a .container-img_article_projects .img_art
     margin-bottom: 67px;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .softskills {
+    max-width: 327px;
+    margin-bottom: 40px;
+  }
+}
 @media screen and (max-width: 1023px) {
   body main .softskills .list_softskills {
     display: initial;
@@ -601,10 +659,22 @@ body main .projects .article_projects a .container-img_article_projects .img_art
     align-items: center;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .softskills .list_softskills .item_softskills {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+}
 @media screen and (max-width: 1023px) {
   body main .softskills .list_softskills .item_softskills .container-img_item_softskills {
     margin-bottom: 0px;
     margin-right: 48px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .softskills .list_softskills .item_softskills .container-img_item_softskills {
+    margin-bottom: 48px;
+    margin-right: 0px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -612,8 +682,18 @@ body main .projects .article_projects a .container-img_article_projects .img_art
     text-align: left;
   }
 }
+@media screen and (max-width: 500px) {
+  body main .softskills .list_softskills .item_softskills .container-txt_item_softskills {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 1023px) {
   body main .softskills .list_softskills .item_softskills .container-txt_item_softskills .title_item_softskills {
     margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .softskills .list_softskills .item_softskills .container-txt_item_softskills .title_item_softskills {
+    margin-bottom: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

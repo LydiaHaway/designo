@@ -8,6 +8,12 @@ h1 {
     font-size: 48px;
     line-height: 48px;
     letter-spacing: 2px;
+
+    @include mobile {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: initial;
+    }
 }
 
 h2 {
@@ -62,4 +68,14 @@ form {
     line-height: 22px;
     letter-spacing: 5px;
     text-transform: uppercase;
+
+    .container-txt_article_projects {
+        .title_article_projects {
+            @include mobile {
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
 }
