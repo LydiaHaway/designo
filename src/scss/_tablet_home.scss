@@ -1,0 +1,107 @@
+body {
+    header {
+        .article_header {
+            @include tablet {
+                max-width: 689px;
+                height: 843px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container-txt_article_header {
+                @include tablet {
+                    max-width: 573px;
+                    margin-top: 60px;
+                    margin-bottom: 69px;
+                }
+
+                .title_article_header {
+                    @include tablet {
+                        margin: 0 auto;
+                        margin-bottom: 29px;
+                    }
+                }
+
+                .txt_article_header {
+                    @include tablet {
+                        margin: 0 auto;
+                        margin-bottom: 19px;
+                    }
+                }
+            }
+
+            .container-img_article_header {
+                @include tablet {
+                    align-self: initial;
+                }
+
+                .img_article_header {
+                    @include img_display;
+                }
+            }
+        }
+    }
+
+    main {
+        .projects {
+            @include tablet {
+                display: flex;
+                max-width: 689px;
+                margin: 120px auto;
+                flex-direction: column;
+            }
+
+            .article_projects {
+                a {
+                    .container-img_article_projects {
+                        @include tablet {
+                            max-width: 689px;
+                        }
+
+                        .img_article_projects {
+                            @include img_display;
+                        }
+                    }
+                }
+            }
+        }
+
+        .softskills {
+            @include tablet {
+                max-width: 689px;
+                margin-bottom: 67px;
+            }
+
+            .list_softskills {
+                @include tablet {
+                    display: initial;
+                }
+
+                .item_softskills {
+                    @include tablet {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .container-img_item_softskills {
+                        @include tablet {
+                            margin-bottom: 0px;
+                            margin-right: 48px; 
+                        }
+                    }
+
+                    .container-txt_item_softskills {
+                        @include tablet {
+                            text-align: left;
+                        }
+                        .title_item_softskills {
+                            @include tablet {
+                                margin-bottom: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
