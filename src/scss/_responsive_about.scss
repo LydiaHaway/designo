@@ -8,6 +8,12 @@ body {
                 justify-content: initial;
             }
 
+            @include mobile {
+                width: 100%;
+                height: initial;
+                border-radius: initial;
+            }
+
             .container-txt_article_header {
                 @include tablet {
                     order: 2;
@@ -15,11 +21,25 @@ body {
                     text-align: center;
                 }
 
-                .title_article_header {}
+                @include mobile {
+                    margin: 80px auto;
+                }
+
+                .title_article_header {
+                    @include mobile {
+                        margin-bottom: 24px;
+                    }
+                }
 
                 .txt_article_header {
                     @include tablet {
                         max-width: 573px;
+                    }
+
+                    @include mobile {
+                        font-size: 15px;
+                        line-height: 25px;
+                        margin-bottom: 0px;
                     }
                 }
             }
@@ -27,10 +47,15 @@ body {
             .container-img_article_header {
                 @include tablet {
                     order: 1;
+                    width: 100%
                 }
 
                 .img_article_header {
                     @include img_display;
+
+                    @include mobile {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -45,10 +70,26 @@ body {
                 margin: 120px auto;
             }
 
+            @include mobile {
+                width: 100%;
+                margin-top: 0px;
+                border-radius: initial;
+            }
+
             .container-txt_article_main {
                 @include tablet {
                     margin: 68px auto;
                     max-width: 572px;
+                }
+
+                @include mobile {
+                    min-height: 545px;
+                    max-width: 327px;
+                    margin-top: 80px;
+                    margin-bottom: 0px;
+                    font-size: 15px;
+                    line-height: 25px;
+                    letter-spacing: initial;
                 }
 
                 &.deal {
@@ -57,9 +98,13 @@ body {
                     }
                 }
 
-                .title_article_main {}
-
-                .paragraphe_article_main {}
+                .paragraphe_article_main {
+                    &.one {
+                        @include mobile {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
             }
 
             .container-img_article_main {
@@ -69,8 +114,16 @@ body {
                     }
                 }
 
+                @include mobile {
+                    width: 100%;
+                }
+
                 .img_article_main {
                     @include img_display;
+
+                    @include mobile {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -80,9 +133,15 @@ body {
                 max-width: 689px;
             }
 
+            @include mobile {
+                margin-bottom: 120px;
+                width: 100%;
+            }
+
             .list_location {
                 @include tablet {
                     flex-direction: column;
+                    padding: initial;
                 }
 
                 .item_location {
@@ -90,15 +149,21 @@ body {
                         @include tablet {
                             margin-bottom: 80px;
                         }
+
+                        @include mobile {
+                            margin-bottom: 48px;
+                        }
                     }
 
                     &.australia {
                         @include tablet {
-                            margin-bottom: 58px;
+                            margin-bottom: 48px;
+                        }
+
+                        @include mobile {
+                            margin-bottom: 48px;
                         }
                     }
-
-                    .title_item_location {}
                 }
             }
         }
