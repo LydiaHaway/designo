@@ -228,6 +228,13 @@ body footer .section_footer .container-contact_footer .social_footer .list_socia
   fill: #FFAD9B;
 }
 
+@media screen and (max-width: 900px) {
+  body header {
+    max-width: 689px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (max-width: 630px) {
   body header .nav_header .container-logo_header {
     margin-left: 10px;
@@ -538,6 +545,7 @@ body main .locations .locations .container_img--mobile img {
 }
 @media screen and (max-width: 570px) {
   body main .locations .locations .container_img--mobile img {
+    display: block;
     width: 100%;
     border-radius: 0%;
   }
