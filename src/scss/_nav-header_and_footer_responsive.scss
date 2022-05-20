@@ -7,6 +7,11 @@ body {
         }
       }
       .list_nav_header {
+        a {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
         @media screen and (max-width: 630px) {
           display: none;
         }
