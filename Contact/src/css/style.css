@@ -260,8 +260,13 @@ body footer .section_footer .container-contact_footer .social_footer .list_socia
     margin-bottom: 32px;
   }
 }
+body header .nav_header .list_nav_header li a {
+  color: #333136;
+}
 body header .nav_header .list_nav_header li a:hover {
   text-decoration: underline;
+  -webkit-text-decoration-color: rgba(51, 49, 54, 0.2745098039);
+          text-decoration-color: rgba(51, 49, 54, 0.2745098039);
 }
 @media screen and (max-width: 630px) {
   body header .nav_header .list_nav_header li a:hover {
