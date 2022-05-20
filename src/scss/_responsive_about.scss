@@ -1,0 +1,106 @@
+body {
+    header {
+        .article_header {
+            @include tablet {
+                max-width: 689px;
+                height: 632px;
+                flex-direction: column;
+                justify-content: initial;
+            }
+
+            .container-txt_article_header {
+                @include tablet {
+                    order: 2;
+                    margin: 64px auto;
+                    text-align: center;
+                }
+
+                .title_article_header {}
+
+                .txt_article_header {
+                    @include tablet {
+                        max-width: 573px;
+                    }
+                }
+            }
+
+            .container-img_article_header {
+                @include tablet {
+                    order: 1;
+                }
+
+                .img_article_header {
+                    @include img_display;
+                }
+            }
+        }
+    }
+
+    main {
+        .article_main {
+            @include tablet {
+                flex-direction: column;
+                text-align: center;
+                max-width: 689px;
+                margin: 120px auto;
+            }
+
+            .container-txt_article_main {
+                @include tablet {
+                    margin: 68px auto;
+                    max-width: 572px;
+                }
+
+                &.deal {
+                    @include tablet {
+                        order: 2;
+                    }
+                }
+
+                .title_article_main {}
+
+                .paragraphe_article_main {}
+            }
+
+            .container-img_article_main {
+                &.deal {
+                    @include tablet {
+                        order: 1;
+                    }
+                }
+
+                .img_article_main {
+                    @include img_display;
+                }
+            }
+        }
+
+        .section_location {
+            @include tablet {
+                max-width: 689px;
+            }
+
+            .list_location {
+                @include tablet {
+                    flex-direction: column;
+                }
+
+                .item_location {
+                    &.belgium {
+                        @include tablet {
+                            margin-bottom: 80px;
+                        }
+                    }
+
+                    &.australia {
+                        @include tablet {
+                            margin-bottom: 58px;
+                        }
+                    }
+
+                    .title_item_location {}
+                }
+            }
+        }
+    }
+}
