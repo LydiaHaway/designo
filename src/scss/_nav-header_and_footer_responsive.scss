@@ -5,12 +5,14 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
+
     .nav_header {
       .container-logo_header {
         @media screen and (max-width: 630px) {
           margin-left: 10px;
         }
       }
+
       .list_nav_header {
         @media screen and (max-width: 630px) {
           display: none;
@@ -110,6 +112,52 @@ body {
           @media screen and (max-width: 900px) {
             margin-bottom: 30px;
           }
+        }
+      }
+
+      .circle_footer1 {
+        @include tablet {
+          right: 126px;
+        }
+
+        @include mobile {
+          top: -102px;
+          right: -17px;
+        }
+      }
+
+      .circle_footer2 {
+        @include tablet {
+          right: -166px;
+        }
+
+        @include mobile {display: none;}
+      }
+
+      .circle_footer3 {
+        @include tablet {
+          right: -166px;
+        }
+        @include mobile {display: none;}
+      }
+
+      .circle_footer4 {
+        @include tablet {
+          right: 126px;
+        }
+        @include mobile {
+          top: 190px;
+          right: -17px;
+        }
+      }
+
+      .circle_footer5 {
+        @include tablet {
+          right: 418px;
+        }
+        @include mobile {
+          top: 190px;
+          right: 275px;
         }
       }
     }

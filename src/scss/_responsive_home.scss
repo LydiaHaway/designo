@@ -1,4 +1,16 @@
 body {
+    .shape_header {
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .shape_footer {
+        @include tablet {
+            display: none;
+        }
+    }
+
     header {
         .article_header {
             @include tablet {
@@ -59,6 +71,17 @@ body {
 
                 .img_article_header {
                     @include img_display;
+                }
+            }
+
+            .circle_header {
+                @include tablet {
+                    top: 102px;
+                    right: -122px;
+                }
+
+                @include mobile {
+                    right: -265px;
                 }
             }
         }
