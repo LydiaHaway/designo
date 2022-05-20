@@ -609,6 +609,7 @@ body main .container_form form textarea {
   border: none;
   border-bottom: 2px solid #ffffff;
   background-color: rgba(231, 130, 107, 0);
+  color: white;
   margin-top: 15px;
   margin-bottom: 24px;
 }
