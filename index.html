@@ -10,6 +10,8 @@
 </head>
 
 <body>
+  <div class="shape_header"></div>
+  <div class="shape_footer"></div>
   <!--header-->
   <header>
     <nav class="nav_header">
@@ -20,51 +22,98 @@
         <li class="item_nav_header"><a>LOCATIONS</a></li>
         <li class="item_nav_header"><a>CONTACT</a></li>
       </ul>
+      <div class="menuBurger"><img src="./src/img/menu-burger.png" alt="menu burger"></div>
+      <div class="menuBurgerExit"><img src="./src/img/menu-burger-exit.png" alt="cross"></div>
     </nav>
     <article class="article_header">
-      <h1 class="title_article_header">Award-winning custom designs and digital branding solutions</h1>
-      <p class="txt_article_header">With over 10 years in the industry, we are experienced in creating fully
-        responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-      <button class="button_article_header dark" type="button">LEARN MORE</button>
+      <div class="container-txt_article_header">
+        <h1 class="title_article_header">Award-winning custom designs and digital branding solutions</h1>
+        <p class="txt_article_header">With over 10 years in the industry, we are experienced in creating fully
+          responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
+        <button class="button_article_header dark" type="button">LEARN MORE</button>
+      </div>
+      <div class="container-img_article_header"><img class="img_article_header desktop" src="./src/img/index/FRAME.png">
+        <img class="img_article_header tablet" src="./src/img/index/FRAME_tablet.png">
+        <img class="img_article_header mobile" src="./src/img/index/FRAME_mobile.png">
+      </div>
+      <div class="circle_header"></div>
     </article>
   </header>
   <!--main-->
   <main>
     <!--section projects-->
     <section class="projects">
-      <article class="article_projects view-projects">
-        <h2 class="title_article_projects">WEB DESIGN</h2><a class="link_article_projects">VIEW PROJECTS</a>
+      <article class="article_projects view-projects" id="web_design">
+        <a>
+          <div class="container-txt_article_projects">
+            <h2 class="title_article_projects">WEB DESIGN</h2>
+            <p class="link_article_projects">VIEW PROJECTS<img class="arrow_projects" src="./src/img/index/arrow.png"></p>
+          </div>
+          <div class="hover_projects"></div>
+          <div class="container-img_article_projects"><img class="img_article_projects desktop"
+              src="./src/img/index/web_design.png"><img class="img_article_projects tablet"
+              src="./src/img/index/web_design_tablet.png"><img class="img_article_projects mobile"
+              src="./src/img/index/web_design_mobile.png"></div>
+        </a>
       </article>
-      <article class="article_projects">
-        <h2 class="title_article_projects">APP DESIGN</h2><a class="link_article_projects">VIEW PROJECTS</a>
-      </article>
-      <article class="article_projects">
-        <h2 class="title_article_projects">GRAPHIC DESIGN</h2><a class="link_article_projects">VIEW PROJECTS</a>
-      </article>
+      <article class="article_projects view-projects"><a>
+          <div class="container-txt_article_projects">
+            <h2 class="title_article_projects">APP DESIGN</h2>
+            <p class="link_article_projects">VIEW PROJECTS<img class="arrow_projects" src="./src/img/index/arrow.png"></p>
+          </div>
+          <div class="hover_projects"></div>
+          <div class="container-img_article_projects"><img class="img_article_projects desktop"
+              src="./src/img/index/app_design.png"><img class="img_article_projects tablet"
+              src="./src/img/index/app_design_tablet.png"><img class="img_article_projects mobile"
+              src="./src/img/index/app_design_mobile.png"></div>
+        </a></article>
+      <article class="article_projects view-projects"><a>
+          <div class="container-txt_article_projects">
+            <h2 class="title_article_projects">GRAPHIC DESIGN</h2>
+            <p class="link_article_projects">VIEW PROJECTS<img class="arrow_projects" src="./src/img/index/arrow.png"></p>
+          </div>
+          <div class="hover_projects"></div>
+          <div class="container-img_article_projects"><img class="img_article_projects desktop"
+              src="./src/img/index/graphic_design.png"><img class="img_article_projects tablet"
+              src="./src/img/index/graphic_design_tablet.png"><img class="img_article_projects mobile"
+              src="./src/img/index/graphic_design_mobile.png"></div>
+        </a></article>
     </section>
     <!--section softskills-->
     <section class="softskills">
       <ul class="list_softskills">
         <li class="item_softskills">
           <div class="container-img_item_softskills"><img class="img_item_softskills"
-              src="./src/img/index/passionate.svg"></div>
-          <h3 class="title_item_softskills">PASSIONATE</h3>
-          <p class="description_item_softskills">Each project starts with an in-depth brand research to ensure we only
-            create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+              src="./src/img/index/passionate.png"></div>
+          <div class="container-txt_item_softskills">
+            <h3 class="title_item_softskills">PASSIONATE</h3>
+            <p class="description_item_softskills">Each project starts with an in-depth brand research to ensure we only
+              create products that serve a purpose. We merge art, design, and technology into exciting new solutions.
+            </p>
+          </div>
         </li>
         <li class="item_softskills">
-          <div class="container-img_item_softskills"><img class="img_item_softskills"></div>
-          <h3 class="title_item_softskills">RESOURCEFUL</h3>
-          <p class="description_item_softskills">Everything that we do has a strategic purpose. We use an agile approach
-            in all of our projects and value customer collaboration. It guarantees superior results that fulfill our
-            clients’ needs.</p>
+          <div class="container-img_item_softskills"><img class="img_item_softskills"
+              src="./src/img/index/resourceful.png"></div>
+          <div class="container-txt_item_softskills">
+            <h3 class="title_item_softskills">RESOURCEFUL</h3>
+            <p class="description_item_softskills">Everything that we do has a strategic purpose. We use an agile
+              approach
+              in all of our projects and value customer collaboration. It guarantees superior results that fulfill our
+              clients’ needs.</p>
+          </div>
         </li>
         <li class="item_softskills">
-          <div class="container-img_item_softskills"><img class="img_item_softskills" src=""></div>
-          <h3 class="title_item_softskills">FRIENDLY</h3>
-          <p class="description_item_softskills"> We are a group of enthusiastic folks who know how to put people first.
-            Our success depends on our customers, and we strive to give them the best experience a company can provide.
-          </p>
+          <div class="container-img_item_softskills"><img class="img_item_softskills"
+              src="./src/img/index/friendly.png"></div>
+          <div class="container-txt_item_softskills">
+            <h3 class="title_item_softskills">FRIENDLY</h3>
+            <p class="description_item_softskills"> We are a group of enthusiastic folks who know how to put people
+              first.
+              Our success depends on our customers, and we strive to give them the best experience a company can
+              provide.
+            </p>
+          </div>
         </li>
       </ul>
     </section>
@@ -72,12 +121,21 @@
   <!--footer-->
   <footer>
     <article class="article_footer">
-      <h2 class="title_article_footer">Let’s talk about your project</h2>
-      <p class="txt_article_footer">Ready to take it to the next level? Contact us today and find out how our expertise
-        can help your business grow.
-      </p>
+      <div class="container-txt_article_footer">
+        <h2 class="title_article_footer">Let’s talk about your project</h2>
+        <p class="txt_article_footer">Ready to take it to the next level? Contact us today and find out how our
+          expertise
+          can help your business grow.
+        </p>
+      </div>
       <button class="button_article_footer dark">GET IN TOUCH</button>
+      <div class="circle_footer1"></div>
+      <div class="circle_footer2"></div>
+      <div class="circle_footer3"></div>
+      <div class="circle_footer4"></div>
+      <div class="circle_footer5"></div>
     </article>
+    <div class="black-back_article_footer"></div>
     <section class="section_footer">
       <nav class="nav_footer">
         <div class="container-logo_footer"><img class="logo_footer" src="./src/img/logo_footer.png" alt="Logo Designo">
@@ -91,12 +149,13 @@
       <div class="container-contact_footer">
         <ul class="contact_footer">
           <li class="item_contact_footer">
-            <p class="title_contact_footer">Designo Central Office<p>
+            <p class="title_contact_footer">Designo Central Office
+            <p>
             <p class="adress_contact">386 Wellington Street</p>
             <p class="adress_contact">1000 Brussels - Belgium</p>
           </li>
           <li class="item_contact_footer">
-            <p class="title_contact_footer">Contact</p>
+            <p class="title_contact_footer">Contact Us (Central Office)</p>
             <p class="data_contact">P : +1 2538638967</p>
             <p class="data_contact">M : contact@designo.co</p>
           </li>
@@ -137,10 +196,11 @@
                     fill="#E7816B" />
                 </svg></a></li>
           </ul>
-        </div>
-        </nav>
+      </div>
+      </nav>
     </section>
   </footer>
+  <script src="./src/js/burgermenu.js"></script>
 </body>
 
 </html>

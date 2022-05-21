@@ -12,18 +12,15 @@
 
     <header>
       <nav class="nav_header">
-        <div class="container-logo_header">
-          <img
-            class="logo_header"
-            src="../src/img/logo_header.png"
-            alt="Logo Designo"
-          />
+        <div class="container-logo_header"><img class="logo_header" src="../src/img/logo_header.png" alt="Logo Designo">
         </div>
         <ul class="list_nav_header">
           <li class="item_nav_header"><a>OUR COMPANY</a></li>
           <li class="item_nav_header"><a>LOCATIONS</a></li>
           <li class="item_nav_header"><a>CONTACT</a></li>
         </ul>
+        <div class="menuBurger"><img src="../src/img/menu-burger.png" alt="menu burger"></div>
+        <div class="menuBurgerExit"><img src="../src/img/menu-burger-exit.png" alt="cross"></div>
       </nav>
     </header>
 
@@ -41,10 +38,14 @@
           </p>
         </div>
         <form action="" method="get" id="form">
-          <input type="text" id="name" placeholder="Name" required /> <br />
-          <input type="email" id="mail" placeholder="Email Address" required /> <br />
-          <input type="tel" id="number" placeholder="Phone" required /> <br />
-          <textarea placeholder="Your Message" required ></textarea> <br> 
+          <input type="text" id="name" placeholder="Name" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <input type="email" id="mail" placeholder="Email Address" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <input type="tel" id="number" placeholder="Phone" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" /> <br />
+          <textarea placeholder="Your Message" required oninvalid="this.setCustomValidity('Cant be empty')"
+          oninput="this.setCustomValidity('')" ></textarea> <br> 
           <button type="submit" class="dark" form="form">Submit</button>
         </form>
       </section>
@@ -73,26 +74,27 @@
     <!--footer-->
 
     <footer>
-
+      <div class="black-back_article_footer"></div>
       <section class="section_footer">
         <nav class="nav_footer">
           <div class="container-logo_footer"><img class="logo_footer" src="../src/img/logo_footer.png" alt="Logo Designo">
           </div>
           <ul class="list_nav_footer">
             <li class="item_nav_footer"><a>OUR COMPANY</a></li>
-            <li class="item_nav_footer"><a>LOCATION</a>S</li>
+            <li class="item_nav_footer"><a>LOCATIONS</a></li>
             <li class="item_nav_footer"><a>CONTACT</a></li>
           </ul>
         </nav>
         <div class="container-contact_footer">
           <ul class="contact_footer">
             <li class="item_contact_footer">
-              <h3 class="title_contact_footer">Designo Central Office</h3>
+              <p class="title_contact_footer">Designo Central Office
+              <p>
               <p class="adress_contact">386 Wellington Street</p>
               <p class="adress_contact">1000 Brussels - Belgium</p>
             </li>
             <li class="item_contact_footer">
-              <h3 class="title_contact_footer">Contact</h3>
+              <p class="title_contact_footer">Contact Us (Central Office)</p>
               <p class="data_contact">P : +1 2538638967</p>
               <p class="data_contact">M : contact@designo.co</p>
             </li>
@@ -133,12 +135,12 @@
                       fill="#E7816B" />
                   </svg></a></li>
             </ul>
-          </div>
-          </nav>
+        </div>
+        </nav>
       </section>
-      
     </footer>
 
+<script src="../src/js/burgermenu.js"></script>
 
   </body>
 </html>
