@@ -3,7 +3,8 @@ $lightPeach: #ffad9b;
 $black: #1d1c1e;
 $darkGrey: #333136;
 $white: #ffffff;
-$lightGrey: #f1f3f5db;
+$lightGrey: #f1f3f5;
+$beige: #FDF3F0;
 
 @mixin tablet {
     @media screen and (max-width: 1023px) {
@@ -34,6 +35,7 @@ $lightGrey: #f1f3f5db;
     &.desktop {
         display: block;
     }
+
     @include tablet {
         &.tablet {
             display: block;
