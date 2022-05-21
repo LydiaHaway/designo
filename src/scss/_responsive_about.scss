@@ -1,4 +1,16 @@
 body {
+    .shape_header {
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .shape_footer {
+        @include tablet {
+            display: none;
+        }
+    }
+
     header {
         .article_header {
             @include tablet {
@@ -56,6 +68,53 @@ body {
                     @include mobile {
                         width: 100%;
                     }
+                }
+            }
+
+            .circle_header1 {
+                @include tablet {
+                    bottom: 101px;
+                    left: -122px;
+                }
+
+                @include mobile {
+                    display: none;
+                }
+            }
+
+            .circle_header2 {
+                @include mobile {
+                    display: block;
+                    position: absolute;
+                    top: 181px;
+                    right: 292px;
+                    width: 292px;
+                    height: 292px;
+                    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                    mix-blend-mode: normal;
+                    opacity: 0.31;
+                    border-radius: 50%;
+                    z-index: 0;
+                    box-sizing: border-box;
+                    transform: rotate(-180deg)
+                }
+            }
+
+            .circle_header3 {
+                @include mobile {
+                    display: block;
+                    position: absolute;
+                    top: 181px;
+                    right: 0px;
+                    width: 292px;
+                    height: 292px;
+                    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                    mix-blend-mode: normal;
+                    opacity: 0.31;
+                    border-radius: 50%;
+                    z-index: 0;
+                    box-sizing: border-box;
+                    transform: rotate(90deg)
                 }
             }
         }
@@ -124,6 +183,89 @@ body {
                     @include mobile {
                         width: 100%;
                     }
+                }
+            }
+
+            .circle_talent1 {
+                @include tablet {
+                    bottom: 336px;
+                    left: 94px;
+                }
+
+                @include mobile {
+                    bottom: 253px;
+                    left: 0px;
+                }
+            }
+
+            .circle_talent2 {
+                @include tablet {
+                    bottom: 44px;
+                    left: 94px;
+                }
+
+                @include mobile {
+                    bottom: -39px;
+                    left: 0px;
+                }
+            }
+
+            .circle_talent3 {
+                @include tablet {
+                    bottom: 44px;
+                    left: 386px;
+                }
+
+                @include mobile {
+                    bottom: -39px;
+                    left: 292px;
+                }
+            }
+
+            .circle_deal1 {
+                @include tablet {
+                    bottom: 44px;
+                    left: 94px;
+                }
+
+                @include mobile {
+                    bottom: -39px;
+                    left: 0px;
+                }
+            }
+
+            .circle_deal2 {
+                @include tablet {
+                    bottom: 44px;
+                    left: 386px;
+                }
+
+                @include mobile {
+                    bottom: -39px;
+                    left: 292px;
+                }
+            }
+
+            .circle_deal3 {
+                @include tablet {
+                    display: block;
+                    position: absolute;
+                    bottom: 336px;
+                    left: 94px;
+                    width: 292px;
+                    height: 292px;
+                    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                    mix-blend-mode: normal;
+                    opacity: 0.06;
+                    transform: matrix(-1, 0, 0, 1, 0, 0);
+                    border-radius: 50%;
+                    z-index: 0;
+                    box-sizing: border-box;
+                }
+
+                @include mobile {
+                    bottom: 253px;
+                    left: 0px;
                 }
             }
         }
