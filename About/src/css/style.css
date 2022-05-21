@@ -509,11 +509,6 @@ body header .nav_header .passive {
   }
 }
 @media screen and (max-width: 660px) {
-  body footer .section_footer .nav_footer .container-logo_footer {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 660px) {
   body footer .section_footer .nav_footer .list_nav_footer {
     margin-top: 65px;
     display: flex;
