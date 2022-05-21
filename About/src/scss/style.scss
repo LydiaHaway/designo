@@ -13,7 +13,7 @@ body {
         height: 594px;
         left: 0px;
         top: 416px;
-        background: red;
+        background: $lightGrey;
         mix-blend-mode: normal;
         opacity: 0.5;
         border-radius: 297px 297px 297px 0px;
@@ -26,7 +26,7 @@ body {
         height: 594px;
         right: 0px;
         bottom: 1161px;
-        background: red;
+        background: $lightGrey;
         mix-blend-mode: normal;
         opacity: 0.5;
         border-radius: 297px 0px 0px 0px;
@@ -155,7 +155,8 @@ body {
                 left: 330px;
                 width: 292px;
                 height: 292px;
-                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);;
+                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                ;
                 mix-blend-mode: normal;
                 opacity: 0.06;
                 transform: matrix(1, 0, 0, -1, 0, 0);
@@ -200,7 +201,8 @@ body {
                 left: 292px;
                 width: 292px;
                 height: 292px;
-                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);;
+                background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+                ;
                 mix-blend-mode: normal;
                 opacity: 0.06;
                 transform: matrix(0, 1, 1, 0, 0, 0);

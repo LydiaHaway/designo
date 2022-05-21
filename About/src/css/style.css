@@ -549,7 +549,7 @@ body .shape_header {
   height: 594px;
   left: 0px;
   top: 416px;
-  background: red;
+  background: #f1f3f5;
   mix-blend-mode: normal;
   opacity: 0.5;
   border-radius: 297px 297px 297px 0px;
@@ -561,7 +561,7 @@ body .shape_footer {
   height: 594px;
   right: 0px;
   bottom: 1161px;
-  background: red;
+  background: #f1f3f5;
   mix-blend-mode: normal;
   opacity: 0.5;
   border-radius: 297px 0px 0px 0px;

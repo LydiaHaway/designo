@@ -641,6 +641,9 @@ body main .projects .article_projects a .container-txt_article_projects .title_a
   margin-bottom: 24px;
   width: 360px;
 }
+body main .projects .article_projects a .container-txt_article_projects .link_article_projects .arrow_projects {
+  margin-left: 21px;
+}
 body main .projects .article_projects a .container-img_article_projects {
   max-width: 541px;
 }
@@ -834,6 +837,11 @@ body main .projects .article_projects a .container-img_article_projects .img_art
   }
   body main .projects .article_projects a .container-img_article_projects .img_article_projects.desktop {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main .projects .article_projects a .container-txt_article_projects .link_article_projects .arrow_projects {
+    margin-left: 16px;
   }
 }
 @media screen and (max-width: 1023px) {

@@ -35,6 +35,7 @@ $beige: #FDF3F0;
     &.desktop {
         display: block;
     }
+
     @include tablet {
         &.tablet {
             display: block;

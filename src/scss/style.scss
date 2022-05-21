@@ -5,7 +5,8 @@
 @import "_nav-header_and_footer_responsive";
 
 body {
-    position:relative;
+    position: relative;
+
     .shape_header {
         position: absolute;
         width: 1006px;
@@ -18,6 +19,7 @@ body {
         border-radius: 297px 297px 297px 0px;
         z-index: -1;
     }
+
     .shape_footer {
         position: absolute;
         width: 1006px;
@@ -30,6 +32,7 @@ body {
         border-radius: 297px 0px 297px 297px;
         z-index: -1;
     }
+
     header {
         .article_header {
             max-width: 1111px;
@@ -119,6 +122,12 @@ body {
                             margin-bottom: 24px;
                             width: 360px;
 
+                        }
+
+                        .link_article_projects {
+                            .arrow_projects {
+                                margin-left: 21px;
+                            }
                         }
                     }
 

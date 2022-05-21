@@ -111,6 +111,16 @@ body {
                             @include img_display;
                         }
                     }
+
+                    .container-txt_article_projects {
+                        .link_article_projects {
+                            .arrow_projects {
+                                @include mobile {
+                                    margin-left: 16px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

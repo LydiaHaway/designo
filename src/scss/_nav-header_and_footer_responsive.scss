@@ -131,20 +131,26 @@ body {
           right: -166px;
         }
 
-        @include mobile {display: none;}
+        @include mobile {
+          display: none;
+        }
       }
 
       .circle_footer3 {
         @include tablet {
           right: -166px;
         }
-        @include mobile {display: none;}
+
+        @include mobile {
+          display: none;
+        }
       }
 
       .circle_footer4 {
         @include tablet {
           right: 126px;
         }
+
         @include mobile {
           top: 190px;
           right: -17px;
@@ -155,6 +161,7 @@ body {
         @include tablet {
           right: 418px;
         }
+
         @include mobile {
           top: 190px;
           right: 275px;
