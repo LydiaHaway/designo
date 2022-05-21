@@ -5,8 +5,8 @@
 @import "../../../src/scss/nav-header_and_footer_responsive";
 
 body {
-  max-width: 1440px;
   margin: 0 auto;
+
   main {
     .container_form {
       background: $peach;
@@ -26,14 +26,13 @@ body {
         display: block;
         max-width: 90%;
         height: fit-content;
-        background: url(../../../src/img/Contact/bg-tablet.png) center/cover
-          no-repeat;
+        background: url(../../../src/img/Contact/bg-tablet.png) center/cover no-repeat;
       }
 
       @media screen and (max-width: 600px) {
-        background: url(../../../src/img/Contact/bg-mobile.png) center/cover
-          no-repeat;
+        background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
       }
+
       .container_form--text {
         width: 540px;
 
