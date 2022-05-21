@@ -1,6 +1,5 @@
 /*------box orange header------*/
-.header {
-    &__box {
+.header__box {
         max-width: 1111px;
         height: 252px;
         margin-right: auto;
@@ -12,7 +11,7 @@
         align-items: center;
         flex-direction: column;
     }
-}
+    
 /*-----------main first 6 box---------*/
 .main__first {
     max-width: 1111px; 
