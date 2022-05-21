@@ -1,5 +1,27 @@
 @import "reset.css";
+/* color */
+/* media queries */
+/* button */
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+button {
+  height: 56px;
+  width: 152px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+button.dark {
+  color: #333136;
+}
+button.light {
+  color: #ffffff;
+  background: #e7816b;
+}
+button:hover {
+  background-color: #ffad9b;
+  color: #ffffff;
+}
+
 h1 {
   font-style: normal;
   font-weight: 500;

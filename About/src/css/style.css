@@ -1,5 +1,27 @@
 @import "../../../src/css/reset.css";
+/* color */
+/* media queries */
+/* button */
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+button {
+  height: 56px;
+  width: 152px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+button.dark {
+  color: #333136;
+}
+button.light {
+  color: #ffffff;
+  background: #e7816b;
+}
+button:hover {
+  background-color: #ffad9b;
+  color: #ffffff;
+}
+
 h1 {
   font-style: normal;
   font-weight: 500;
@@ -553,7 +575,7 @@ body .shape_header {
   width: 1006px;
   height: 594px;
   left: 0px;
-  top: 416px;
+  top: 411px;
   background: #f1f3f5;
   mix-blend-mode: normal;
   opacity: 0.5;
