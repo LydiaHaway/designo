@@ -312,6 +312,9 @@ body footer .section_footer .container-contact_footer .contact_footer .item_cont
 body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
   font-weight: 400;
 }
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .data_contact a {
+  color: #ffffff;
+}
 body footer .section_footer .container-contact_footer .social_footer {
   display: flex;
 }
