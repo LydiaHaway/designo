@@ -1,0 +1,44 @@
+.__image__picture2 {
+    position: absolute;
+    width: 541px;
+    height: 308px;
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+
+.__write__title2 {
+    position: relative;
+    width: 541px;
+    height: 48px;
+    justify-content: center;
+    padding-top: 115px;
+    margin-right: 0px;
+    padding-bottom: 24px;
+    font-family: $jost;
+    font-weight: bold;
+    font-size: 40px;
+    color: $white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.__write__subtitle {
+    position: relative;
+    width: 541px;
+    height: 22px;
+    margin-left: 165px;
+    padding: 10px;
+    font-family: $jost;
+    font-weight: 400;
+    font-size: 15px;
+    color: $white;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.arrow {
+    font-family: $jost;
+    font-weight: bolder;
+    font-size: 15px;
+    color: $orange;
+}

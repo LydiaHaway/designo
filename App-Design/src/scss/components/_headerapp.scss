@@ -1,15 +1,16 @@
-/*------------Header--------------*/
-.header__title-title {
+h1 {
     width: 730px;
     height: 48px;
     font-family: $jost;
     font-weight: bold;
     font-size: 48px;
+    line-height: 48px;
     color: $white;
+    padding-bottom: 24px;
     text-align: center;
-    margin-bottom: 24px;
 }
-.header__title-text {
+
+.__box__text {
     width: 730px;
     height: 48px;
     font-family: $jost;

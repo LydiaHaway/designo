@@ -1,75 +1,44 @@
 /*------box orange header------*/
-.header__title {
-    width: 1111px;
-    height: 252px;
-    margin-left: 350px;
-    margin-bottom: 160px;
-    background-image: url(/src/img/background_header_orange.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.header {
+    &__box {
+        max-width: 1111px;
+        height: 252px;
+        margin-right: auto;
+        margin-bottom: 160px;
+        margin-left: auto;
+        background-image: url(/src/img/background_header_orange.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 /*-----------main first 6 box---------*/
+.main__first {
+    max-width: 1111px; 
+    height: 988px;
+    margin-bottom: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .__first__box {
     width: 350px;
+    height: 478px;
+}
+
+.__box__image {
+    width: 350px;
+    height: 323px;
+}
+
+.__box__write {
+    width: 350px;
     height: 155px;
-    background-color: $beige;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-.__first__image-picture {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    display: block; 
-}
-.__first__box-title {
-    width: 350px;
-    height: 26px;
-    margin-right: 0px;
-    font-family: $jost;
-    font-weight: 500;
-    font-size: 20px;
-    color: $orange;
-    letter-spacing: 5px;
-    padding-top: 30px;
-    text-align: center;
-} 
-.__first__box-text {
-    width: 350px;
-    height: 52px;
-    margin-right: 0px;
-    font-family: $jost;
-    font-weight: 400;
-    font-size: 16px;
-    color: $black;
-    line-height: 26px;
-    padding-top: 16px;
-    text-align: center;
 }
 /*-------------main second 2 box-------*/
-.main__section__second {
-    width: 1111px;
+.__main__second {
+    max-width: 1111px;
     height: 308px;
-}
-.__second__img-picture {
-    position: absolute;
-    border-radius: 15px;
-    filter: brightness(50%);
-}
-.__second__box-title {
-    position: relative;
-    width: 541px;
-    height: 48px;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 24px; 
-}
-.__second__box-subtitle {
-    position: relative;
-    width: 541px;
-    height: 22px;
-    margin-left: 165px;
-    padding: 10px;
+    margin: 0 auto;
 }
