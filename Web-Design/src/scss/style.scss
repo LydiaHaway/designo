@@ -1,10 +1,11 @@
-@import "./abstracts/_fonts";
-@import "./abstracts/_variables";
+@import "./abstracts/fonts";
+@import "./abstracts/variables";
 
-@import "./base/_reset";
-@import "./base/_form";
+@import "./Base/reset";
+@import "./Base/form";
 
-@import "./components/_common";
-@import "./components/_box";
-@import "./components/_headerbox";
-@import "./components/_mainsectionsecond"
+@import "./components/common";
+@import "./components/box";
+@import "./components/headerweb";
+@import "./components/main1box";
+@import "./components/main2box";
