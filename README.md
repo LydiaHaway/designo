@@ -10,7 +10,7 @@ You can fallow this [link](https://lydiahaway.github.io/designo/).
 
 ## Test SEO
 
-Here's an exemple of the lighthouse for one of our pages
+Here's an exemple of the lighthouse for one of our pages.
 
 ![SEO](./src/img/ReadMe--SEO.png)
 
