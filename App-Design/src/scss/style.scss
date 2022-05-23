@@ -10,11 +10,11 @@
 
 body {
     max-width: 100vw;
-    background-color: $whitef; 
+    background-color: $white; 
 }
 /*---------------------------header---------------------------*/
 .header__box {
-    max-width: 1111px;
+    width: 1111px;
     height: 252px;
     margin-right: auto;
     margin-bottom: 160px;
@@ -48,9 +48,10 @@ body {
         line-height: 26px;
     }
 }
+
 /*----------------------section first---------------------------*/
 .main__first {
-    max-width: 1111px; 
+    width: 1111px; 
     height: 988px;
     margin-bottom: 160px;
     margin-left: auto;
@@ -61,21 +62,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 32px 32px; 
-    grid-template-areas: 
-        ". . ."
-        ". . ."; 
     justify-items: center;
 
     .__first__box {
         width: 350px;
         height: 478px;
-        width: 350px;
-        height: 478px;
-	    display: flex;
-	    flex-direction: column;
-	    flex-wrap: wrap;
-	    align-items: flex-end;
-	    align-content: center;
     }
 
     .__box__image {
@@ -85,9 +76,9 @@ body {
         .__image__picture1 {
             width: 100%;
             height: 100%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        display: block;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            display: block;
         }
     }
 
@@ -197,3 +188,5 @@ body {
         color: $orange;
     }
 }
+
+@import "./responsive.scss";
