@@ -1058,9 +1058,9 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .header__box {
-    width: 375px;
     height: 320px;
     background-image: url(../../../src/img/fond-mobile-orange.png);
+    background-size: cover;
   }
   .header__box .h1 {
     width: 375px;
