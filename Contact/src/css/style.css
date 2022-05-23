@@ -940,7 +940,7 @@ body main .container_see--location .list-location li button:hover {
 body main .container_see--location .shape {
   position: absolute;
   z-index: -1;
-  top: 900px;
+  top: 940px;
   right: 0px;
 }
 @media screen and (max-width: 1200px) {
