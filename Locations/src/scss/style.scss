@@ -85,13 +85,15 @@ body {
         }
 
         .container_locations_contacts {
-          background: url(../../../src/img/Locations/bg.png) center/cover no-repeat;
+          background: url(../../../src/img/Locations/bg.png) center/cover
+            no-repeat;
           width: 730px;
           height: 326px;
           border-radius: 15px;
 
           @media screen and (max-width: 900px) {
-            background: url(../../../src/img/Locations/bg-tablet.png) center/cover no-repeat;
+            background: url(../../../src/img/Locations/bg-tablet.png)
+              center/cover no-repeat;
             width: 90%;
             margin-left: auto;
             margin-right: auto;
@@ -99,7 +101,8 @@ body {
           }
 
           @media screen and (max-width: 570px) {
-            background: url(../../../src/img/Locations/bg-phone.png) center/cover no-repeat;
+            background: url(../../../src/img/Locations/bg-phone.png)
+              center/cover no-repeat;
             text-align: center;
             padding-bottom: 80px;
             width: 100%;
