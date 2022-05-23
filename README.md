@@ -8,6 +8,10 @@ For this project, we were three, Lydia Haway, Mehdi Habaru and Henri Hals.
 
 You can fallow this [link](https://lydiahaway.github.io/designo/).
 
+## Test SEO
+
+![SEO](./src/img/ReadMe--SEO.png)
+
 ## Technologies
 
 HTML, SASS, JS.
