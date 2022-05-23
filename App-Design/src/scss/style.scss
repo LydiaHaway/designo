@@ -14,11 +14,12 @@ body {
 }
 /*---------------------------header---------------------------*/
 .header__box {
-    width: 1111px;
+    max-width: 1111px;
     height: 252px;
     margin-right: auto;
     margin-bottom: 160px;
     margin-left: auto;
+    border-radius: 15px;
     background-image: url(/src/img/background_header_orange.png);
     display: flex;
     justify-content: center;
@@ -26,7 +27,6 @@ body {
     flex-direction: column;
 
     h1 {
-        width: 730px;
         height: 48px;
         font-family: $jost;
         font-weight: bold;
@@ -38,7 +38,6 @@ body {
     }
 
     .__box__text {
-        width: 730px;
         height: 48px;
         font-family: $jost;
         font-weight: 400;
@@ -51,14 +50,11 @@ body {
 
 /*----------------------section first---------------------------*/
 .main__first {
-    width: 1111px; 
-    height: 988px;
+    max-width: 1111px;
     margin-bottom: 160px;
     margin-left: auto;
     margin-right: auto;
     display: grid; 
-    grid-auto-flow: row; 
-    grid-auto-columns: 1fr; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 32px 32px; 
@@ -76,9 +72,7 @@ body {
         .__image__picture1 {
             width: 100%;
             height: 100%;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            display: block;
+            @include img_display;
         }
     }
 
@@ -131,61 +125,82 @@ body {
 /*----------------------section second---------------------------*/
 .__main__second {
     max-width: 1111px;
-    height: 308px;
     margin: 0 auto;
     margin-bottom: 160px;
-    display: grid; 
-    grid-auto-flow: row; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    grid-template-areas: 
-        ". ."; 
-    justify-items: stretch; 
+    display: flex; 
+    text-align: center;
+    gap: 30px;
 
-    .__image__picture2 {
-        position: absolute;
-        width: 541px;
-        height: 308px;
+    @include tablet {
+        display: flex;
+        max-width: 689px;
+        margin: 120px auto;
+        flex-direction: column;
+    }
+
+    @include mobile {
+        max-width: 327px;
+    }
+    
+    .article_projects {
+        position: relative;
         border-radius: 15px;
-        filter: brightness(50%);
-    }
+        overflow: hidden;
 
-    .__write__title2 {
-        position: relative;
-        width: 541px;
-        height: 48px;
-        justify-content: center;
-        padding-top: 115px;
-        margin-right: 0px;
-        padding-bottom: 24px;
-        font-family: $jost;
-        font-weight: bold;
-        font-size: 40px;
-        color: $white;
-        text-align: center;
-        letter-spacing: 2px;
-    }
+        a {
+            .container-txt_article_projects {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
 
-    .__write__subtitle {
-        position: relative;
-        width: 541px;
-        height: 22px;
-        margin-left: 165px;
-        padding: 10px;
-        font-family: $jost;
-        font-weight: 400;
-        font-size: 15px;
-        color: $white;
-        letter-spacing: 5px;
-        text-decoration: none;
-    }
 
-    .arrow {
-        font-family: $jost;
-        font-weight: bolder;
-        font-size: 15px;
-        color: $orange;
+                .title_article_projects {
+                    margin-bottom: 24px;
+                    width: 360px;
+
+                }
+
+                .link_article_projects {
+                    .arrow_projects {
+                        margin-left: 21px;
+                        
+                        @include mobile {
+                            margin-left: 16px;
+                        }
+                    }
+
+                }
+            }
+
+            .container-img_article_projects {
+                max-width: 541px;
+
+                @include tablet {
+                    max-width: 689px;
+                }
+
+
+                .img_article_projects {
+                    @include img_display;
+                    width: 100%;
+                }
+            }
+
+            &:hover .hover_projects {
+                background: $peach;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+            }
+        }
     }
 }
 
