@@ -26,11 +26,13 @@ body {
         display: block;
         max-width: 90%;
         height: fit-content;
-        background: url(../../../src/img/Contact/bg-tablet.png) center/cover no-repeat;
+        background: url(../../../src/img/Contact/bg-tablet.png) center/cover
+          no-repeat;
       }
 
       @media screen and (max-width: 600px) {
-        background: url(../../../src/img/Contact/bg-mobile.png) center/cover no-repeat;
+        background: url(../../../src/img/Contact/bg-mobile.png) center/cover
+          no-repeat;
       }
 
       .container_form--text {
@@ -173,6 +175,8 @@ body {
         margin-top: 160px;
         margin-bottom: 320px;
         gap: 178px;
+        position: relative;
+        z-index: 2;
 
         @media screen and (max-width: 970px) {
           display: block;
@@ -213,6 +217,17 @@ body {
               background-color: $lightPeach;
             }
           }
+        }
+      }
+
+      .shape {
+        position: absolute;
+        z-index: -1;
+        top: 900px;
+        right: 0px;
+
+        @media screen and (max-width: 1200px) {
+          display: none;
         }
       }
     }
