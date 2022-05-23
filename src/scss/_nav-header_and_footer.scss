@@ -64,7 +64,7 @@ body {
                 }
             }
 
-            .button_article_footer {
+            a {
                 z-index: 1;
             }
 
@@ -187,6 +187,7 @@ body {
                         line-height: 14px;
                         letter-spacing: 2px;
                         cursor: pointer;
+                        color: $white;
                     }
                 }
             }
@@ -211,6 +212,11 @@ body {
 
                         .adress_contact {
                             font-weight: 400;
+                        }
+                        .data_contact {
+                            a {
+                                color: $white;
+                            }
                         }
                     }
                 }

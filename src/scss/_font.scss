@@ -2,6 +2,12 @@
 
 $jost: "Jost", sans-serif;
 
+a:link,
+a:visited {
+    color: initial;
+    text-decoration: none;
+}
+
 h1 {
     font-style: normal;
     font-weight: 500;
@@ -68,19 +74,22 @@ form {
 }
 
 .view-projects {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $white;
 
-    .container-txt_article_projects {
-        .title_article_projects {
-            @include mobile {
-                font-size: 28px;
-                line-height: 36px;
-                letter-spacing: 1.4px;
+        .container-txt_article_projects {
+            .title_article_projects {
+                @include mobile {
+                    font-size: 28px;
+                    line-height: 36px;
+                    letter-spacing: 1.4px;
+                }
             }
         }
     }

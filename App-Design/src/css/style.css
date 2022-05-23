@@ -57,6 +57,51 @@ table {
   border-spacing: 0;
 }
 
+/* color */
+/* media queries */
+/* button */
+button {
+  height: 56px;
+  width: 152px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+button.dark {
+  color: #333136;
+}
+button.light {
+  color: #ffffff;
+  background: #e7816b;
+}
+button:hover {
+  background-color: #ffad9b;
+  color: #ffffff;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #1d1c1e;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px #333136;
+          box-shadow: inset 0 0 10px #333136;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e7816b;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+a:link,
+a:visited {
+  color: initial;
+  text-decoration: none;
+}
+
 h1 {
   font-style: normal;
   font-weight: 500;
@@ -124,16 +169,17 @@ form {
   letter-spacing: initial;
 }
 
-.view-projects {
+.view-projects a {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 @media screen and (max-width: 500px) {
-  .view-projects .container-txt_article_projects .title_article_projects {
+  .view-projects a .container-txt_article_projects .title_article_projects {
     font-size: 28px;
     line-height: 36px;
     letter-spacing: 1.4px;
@@ -219,7 +265,7 @@ body footer .article_footer .container-txt_article_footer .title_article_footer 
   letter-spacing: initial;
   padding-bottom: 16px;
 }
-body footer .article_footer .button_article_footer {
+body footer .article_footer a {
   z-index: 1;
 }
 body footer .article_footer .circle_footer1 {
@@ -353,6 +399,7 @@ body footer .section_footer .nav_footer .list_nav_footer a {
   line-height: 14px;
   letter-spacing: 2px;
   cursor: pointer;
+  color: #ffffff;
 }
 body footer .section_footer .container-contact_footer {
   max-width: 1111px;
@@ -380,6 +427,9 @@ body footer .section_footer .container-contact_footer .contact_footer .item_cont
 }
 body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .adress_contact {
   font-weight: 400;
+}
+body footer .section_footer .container-contact_footer .contact_footer .item_contact_footer .data_contact a {
+  color: #ffffff;
 }
 body footer .section_footer .container-contact_footer .social_footer {
   display: -webkit-box;
@@ -600,11 +650,6 @@ body header .nav_header .passive {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-}
-@media screen and (max-width: 660px) {
-  body footer .section_footer .nav_footer .container-logo_footer {
-    width: 300px;
   }
 }
 @media screen and (max-width: 660px) {
