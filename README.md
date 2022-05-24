@@ -16,4 +16,4 @@ Here's an exemple of the lighthouse for one of our pages.
 
 ## Technologies
 
-HTML, SASS, JS.
+HTML, SASS, JS
